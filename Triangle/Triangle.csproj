@@ -51,6 +51,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manguasjad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manguasjad.Designer.cs">
+      <DependentUpon>Manguasjad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ostja.cs" />
     <Compile Include="Ostukorv.cs">
       <SubType>Form</SubType>
@@ -71,6 +77,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manguasjad.resx">
+      <DependentUpon>Manguasjad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -143,6 +152,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\16GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MYSTERY Ajalooline mõõk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JAKKS Real Constuctions SUUR TÖÖKODA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\539629_539667_bratz_selfie_stick_with_doll_jade_fw_pkg_f_s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60132.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16554_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_2__1_3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sample.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fidentspinsetlgbm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j08199_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leg-j-9032.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,7 +14,7 @@ namespace Triangle
     public partial class Tehnika : Form
     {
         public static string alertString = "Toode  on lisatud ostukorvi!";
-        public static string path = @"D:\#Games and Apps\GITHUB\PraktikaJaanuar\Triangle\Inventory.txt";
+        public static string path = @"...\PraktikaJaanuar\Triangle\Inventory.txt";
         public Tehnika()
         {
             InitializeComponent();
