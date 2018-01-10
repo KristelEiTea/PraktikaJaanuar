@@ -53,6 +53,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Algusesse = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -71,7 +72,7 @@
             this.alert.BackColor = System.Drawing.Color.Transparent;
             this.alert.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alert.ForeColor = System.Drawing.Color.Maroon;
-            this.alert.Location = new System.Drawing.Point(221, 375);
+            this.alert.Location = new System.Drawing.Point(77, 363);
             this.alert.Name = "alert";
             this.alert.Size = new System.Drawing.Size(186, 42);
             this.alert.TabIndex = 52;
@@ -82,7 +83,7 @@
             this.OstukorvNupp.BackColor = System.Drawing.Color.SaddleBrown;
             this.OstukorvNupp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.OstukorvNupp.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.OstukorvNupp.Location = new System.Drawing.Point(706, 568);
+            this.OstukorvNupp.Location = new System.Drawing.Point(634, 568);
             this.OstukorvNupp.Name = "OstukorvNupp";
             this.OstukorvNupp.Size = new System.Drawing.Size(253, 42);
             this.OstukorvNupp.TabIndex = 41;
@@ -91,7 +92,7 @@
             // 
             // ToManguasjadNupp
             // 
-            this.ToManguasjadNupp.Location = new System.Drawing.Point(920, 472);
+            this.ToManguasjadNupp.Location = new System.Drawing.Point(932, 568);
             this.ToManguasjadNupp.Name = "ToManguasjadNupp";
             this.ToManguasjadNupp.Size = new System.Drawing.Size(185, 42);
             this.ToManguasjadNupp.TabIndex = 40;
@@ -103,7 +104,7 @@
             this.KassasseNupp.BackColor = System.Drawing.Color.DarkRed;
             this.KassasseNupp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.KassasseNupp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.KassasseNupp.Location = new System.Drawing.Point(241, 568);
+            this.KassasseNupp.Location = new System.Drawing.Point(413, 508);
             this.KassasseNupp.Name = "KassasseNupp";
             this.KassasseNupp.Size = new System.Drawing.Size(361, 42);
             this.KassasseNupp.TabIndex = 39;
@@ -115,12 +116,13 @@
             this.ToRiidedNupp.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ToRiidedNupp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ToRiidedNupp.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ToRiidedNupp.Location = new System.Drawing.Point(24, 472);
+            this.ToRiidedNupp.Location = new System.Drawing.Point(9, 568);
             this.ToRiidedNupp.Name = "ToRiidedNupp";
             this.ToRiidedNupp.Size = new System.Drawing.Size(185, 42);
             this.ToRiidedNupp.TabIndex = 38;
             this.ToRiidedNupp.Text = "<--- Riided";
             this.ToRiidedNupp.UseVisualStyleBackColor = false;
+            this.ToRiidedNupp.Click += new System.EventHandler(this.ToRiidedNupp_Click);
             // 
             // MaluNupp
             // 
@@ -354,12 +356,25 @@
             this.pictureBox4.TabIndex = 42;
             this.pictureBox4.TabStop = false;
             // 
+            // Algusesse
+            // 
+            this.Algusesse.BackColor = System.Drawing.Color.DarkCyan;
+            this.Algusesse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Algusesse.Location = new System.Drawing.Point(277, 568);
+            this.Algusesse.Name = "Algusesse";
+            this.Algusesse.Size = new System.Drawing.Size(293, 42);
+            this.Algusesse.TabIndex = 53;
+            this.Algusesse.Text = "Algusesse";
+            this.Algusesse.UseVisualStyleBackColor = false;
+            this.Algusesse.Click += new System.EventHandler(this.Algusesse_Click);
+            // 
             // Tehnika
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.Algusesse);
             this.Controls.Add(this.alert);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -430,5 +445,6 @@
         private System.Windows.Forms.Button JBLboxNupp;
         private System.Windows.Forms.Button SklapidNupp;
         private System.Windows.Forms.Button NklapidNupp;
+        private System.Windows.Forms.Button Algusesse;
     }
 }
