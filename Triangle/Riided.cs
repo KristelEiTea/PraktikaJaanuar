@@ -140,5 +140,10 @@ namespace Triangle
         {
 
         }
+
+        private void Riided_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
