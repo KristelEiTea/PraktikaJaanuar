@@ -14,7 +14,7 @@ namespace Triangle
     public partial class Tehnika : Form
     {
         public static string alertString = "Toode  on lisatud ostukorvi!";
-        public static string path = @"D:\#Games and Apps\GITHUB\PraktikaJaanuar\Triangle\Inventory.txt";
+        public static string path = @"..\..\..\Inventory.txt";
         public Tehnika()
         {
             InitializeComponent();
@@ -103,6 +103,14 @@ namespace Triangle
             File.AppendAllText(path, tehnika10);
             Ostja.Raha -= 15;
             alert.Text = alertString + " " + MaluNupp.Text;
+        }
+
+        private void ToRiidedNupp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Riided r = new Riided();
+            r.ShowDialog();
+            this.Close();
         }
     }
 }
