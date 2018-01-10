@@ -104,5 +104,10 @@ namespace Triangle
             Ostja.Raha -= 15;
             alert.Text = alertString + " " + MaluNupp.Text;
         }
+
+        private void Tehnika_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

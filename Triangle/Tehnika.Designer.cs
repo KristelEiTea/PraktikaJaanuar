@@ -387,6 +387,7 @@
             this.Controls.Add(this.NklapidNupp);
             this.Name = "Tehnika";
             this.Text = "Tehnika";
+            this.Load += new System.EventHandler(this.Tehnika_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
