@@ -97,5 +97,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Resources\16GB.jpg" />
+    <Content Include="Properties\Resources\JBL extreme.jpg" />
+    <Content Include="Properties\Resources\jbl karp.jpg" />
+    <Content Include="Properties\Resources\KeyboardLED.png" />
+    <Content Include="Properties\Resources\LG mon.jpg" />
+    <Content Include="Properties\Resources\LG TV.png" />
+    <Content Include="Properties\Resources\MyPhone.png" />
+    <Content Include="Properties\Resources\Nimetu.png" />
+    <Content Include="Properties\Resources\nööpklapid.jpg" />
+    <Content Include="Properties\Resources\thOHG8WHF9.jpg" />
+    <Content Include="Properties\Resources\wir mous.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
