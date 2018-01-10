@@ -75,6 +75,12 @@
     <Compile Include="Tehnika.Designer.cs">
       <DependentUpon>Tehnika.cs</DependentUpon>
     </Compile>
+    <Compile Include="Toid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toid.Designer.cs">
+      <DependentUpon>Toid.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tehnika.resx">
       <DependentUpon>Tehnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toid.resx">
+      <DependentUpon>Toid.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -182,6 +191,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\leg-j-9032.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2700014000000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3500610035111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740012026983.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740029055075.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740103010020.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740113090555.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740320200006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4740572000409.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4742829010070.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4743050000045.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5053990101597.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5900643032688.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5900862520683.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7322540313321.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
