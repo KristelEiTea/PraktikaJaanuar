@@ -32,6 +32,7 @@ namespace PraktikaJaanuar
             string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga 15€";
             FileDialog.AppendAllText(path, lelu1);
             alertString.Text = alertString + " " + selfie.Text;
+
         }
 
         private void button9_Click(object sender, EventArgs e)
