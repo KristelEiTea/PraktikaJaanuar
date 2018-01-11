@@ -154,9 +154,9 @@
             this.label6.ForeColor = System.Drawing.Color.Red;
             this.label6.Location = new System.Drawing.Point(1013, 43);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 25);
+            this.label6.Size = new System.Drawing.Size(79, 25);
             this.label6.TabIndex = 11;
-            this.label6.Text = "label6";
+            this.label6.Text = "0 eurot";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Form1
