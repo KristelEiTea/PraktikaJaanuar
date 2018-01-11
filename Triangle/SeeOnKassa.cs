@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.IO;
 using System.Text;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -116,15 +117,33 @@ namespace Triangle
         {
 
         }
-
+        public static string path2;
         private void Maksa_Click(object sender, EventArgs e)
         {
-
+            if (Ostja.Raha >= 0)
+            {
+                label1.Text = "Kaup on edukalt ostetud! Siin on tsekk: ";
+                path2 = @"../../../Tsekk.txt";
+                File.Delete(path2);
+                File.Copy(path, path2, true);
+                var lines = File.ReadAllLines(path);
+                lines[0] = "Ostetud kaup on: " + System.Environment.NewLine;
+                File.WriteAllLines(path2, lines);
+                string co = System.Environment.NewLine + "Ostu kogusumma oli: " + Ostja.Summa + "€";
+                File.AppendAllText(path2, co);
+                Process p = new Process();
+                Process.Start(@"..\..\..\Tsekk.txt");
+                p.Close();
+            }
+            else if(Ostja.Raha < 0)
+            {
+                label1.Text = "Sul ei ole piisabvalt raha selle eest maksmiseks!";
+            }
         }
 
         private void Raha_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

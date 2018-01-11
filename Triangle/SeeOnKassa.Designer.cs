@@ -42,6 +42,7 @@
             this.alert = new System.Windows.Forms.Label();
             this.Raha = new System.Windows.Forms.Button();
             this.Maksa = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -190,25 +191,35 @@
             // 
             this.Raha.BackColor = System.Drawing.Color.LightSeaGreen;
             this.Raha.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Raha.Location = new System.Drawing.Point(451, 509);
+            this.Raha.Location = new System.Drawing.Point(947, 555);
             this.Raha.Name = "Raha";
             this.Raha.Size = new System.Drawing.Size(147, 58);
             this.Raha.TabIndex = 29;
-            this.Raha.Text = "Raha välja";
+            this.Raha.Text = "Lahku";
             this.Raha.UseVisualStyleBackColor = false;
             this.Raha.Click += new System.EventHandler(this.Raha_Click);
             // 
             // Maksa
             // 
-            this.Maksa.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Maksa.BackColor = System.Drawing.Color.Salmon;
             this.Maksa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Maksa.Location = new System.Drawing.Point(152, 509);
             this.Maksa.Name = "Maksa";
-            this.Maksa.Size = new System.Drawing.Size(147, 58);
+            this.Maksa.Size = new System.Drawing.Size(519, 58);
             this.Maksa.TabIndex = 30;
             this.Maksa.Text = "Maksa";
             this.Maksa.UseVisualStyleBackColor = false;
             this.Maksa.Click += new System.EventHandler(this.Maksa_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Magneto", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(28, 581);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 32);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "label1";
             // 
             // SeeOnKassa
             // 
@@ -216,6 +227,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Maksa);
             this.Controls.Add(this.Raha);
             this.Controls.Add(this.alert);
@@ -254,5 +266,6 @@
         private System.Windows.Forms.Label alert;
         private System.Windows.Forms.Button Raha;
         private System.Windows.Forms.Button Maksa;
+        private System.Windows.Forms.Label label1;
     }
 }
