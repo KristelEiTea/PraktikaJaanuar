@@ -156,7 +156,10 @@ namespace Triangle
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Toit s = new Toit();
+            s.ShowDialog();
+            this.Close();
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -167,9 +170,9 @@ namespace Triangle
         private void button14_Click(object sender, EventArgs e)
         {
             Process p = new Process();
-            Process.Start(@"");
-            
-           
+            Process.Start(@"..\..\Inventory.txt");
+            p.Close();
+
 
         }
 

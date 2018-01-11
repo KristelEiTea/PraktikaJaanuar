@@ -8,15 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Triangle
 {
-    public partial class Toid : Form
+    public partial class Toit : Form
     {
         public static string alertString = "Toode  on lisatud ostukorvi!";
 
         public static string path = @"..\..\..\Inventory.txt";
-        public Toid()
+        public Toit()
         {
             InitializeComponent();
         }
@@ -136,6 +137,39 @@ namespace Triangle
             string toit2 = System.Environment.NewLine + "Tualettpaber Delux Pure White, 3, ZEWA, 16rl 8€";
             File.AppendAllText(path, toit2);
             alert.Text = alertString + " " + button14.Text;
+        }
+
+        private void Algus_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f = new Form1();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void Toys_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Manguasjad t = new Manguasjad();
+            t.ShowDialog();
+            this.Close();
+        }
+
+        private void Clothing_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Riided r = new Riided();
+            r.ShowDialog();
+            this.Close();
+        }
+
+        private void ostukorv_Click(object sender, EventArgs e)
+        {
+
+            Process p = new Process();
+            Process.Start(@"..\..\Inventory.txt");
+            p.Close();
+
         }
     }
 }

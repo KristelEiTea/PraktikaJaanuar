@@ -75,11 +75,11 @@
     <Compile Include="Tehnika.Designer.cs">
       <DependentUpon>Tehnika.cs</DependentUpon>
     </Compile>
-    <Compile Include="Toid.cs">
+    <Compile Include="Toit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Toid.Designer.cs">
-      <DependentUpon>Toid.cs</DependentUpon>
+    <Compile Include="Toit.Designer.cs">
+      <DependentUpon>Toit.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -103,8 +103,8 @@
     <EmbeddedResource Include="Tehnika.resx">
       <DependentUpon>Tehnika.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Toid.resx">
-      <DependentUpon>Toid.cs</DependentUpon>
+    <EmbeddedResource Include="Toit.resx">
+      <DependentUpon>Toit.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

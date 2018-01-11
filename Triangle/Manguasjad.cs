@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Triangle
 {
@@ -98,6 +99,40 @@ namespace Triangle
             string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott 7€";
             File.AppendAllText(path, lelu10);
             alert.Text = alertString + " " + kotike.Text;
+        }
+
+        private void Algusesse_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            Form1 f = new Form1();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void Tehnikasse_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Tehnika t = new Tehnika();
+            t.ShowDialog();
+            this.Close();
+        }
+
+        private void Toitudesse_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Toit s = new Toit();
+            s.ShowDialog();
+            this.Close();
+            
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+            Process p = new Process();
+            Process.Start(@"..\..\Inventory.txt");
+            this.Close();
         }
     }
 }

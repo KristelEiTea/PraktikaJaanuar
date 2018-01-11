@@ -1,6 +1,6 @@
 ﻿namespace Triangle
 {
-    partial class Toid
+    partial class Toit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.Clothing = new System.Windows.Forms.Button();
+            this.ostukorv = new System.Windows.Forms.Button();
+            this.kassa = new System.Windows.Forms.Button();
+            this.Toys = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.kako = new System.Windows.Forms.Button();
             this.activia = new System.Windows.Forms.Button();
@@ -61,6 +61,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Algus = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -77,49 +78,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button18
+            // Clothing
             // 
-            this.button18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Location = new System.Drawing.Point(997, 539);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(120, 54);
-            this.button18.TabIndex = 84;
-            this.button18.Text = "Riided->";
-            this.button18.UseVisualStyleBackColor = false;
+            this.Clothing.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Clothing.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Clothing.Location = new System.Drawing.Point(997, 539);
+            this.Clothing.Name = "Clothing";
+            this.Clothing.Size = new System.Drawing.Size(120, 54);
+            this.Clothing.TabIndex = 84;
+            this.Clothing.Text = "Riided->";
+            this.Clothing.UseVisualStyleBackColor = false;
+            this.Clothing.Click += new System.EventHandler(this.Clothing_Click);
             // 
-            // button17
+            // ostukorv
             // 
-            this.button17.BackColor = System.Drawing.Color.LimeGreen;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Location = new System.Drawing.Point(717, 538);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(242, 57);
-            this.button17.TabIndex = 83;
-            this.button17.Text = "Ostukorv";
-            this.button17.UseVisualStyleBackColor = false;
+            this.ostukorv.BackColor = System.Drawing.Color.LimeGreen;
+            this.ostukorv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ostukorv.Location = new System.Drawing.Point(717, 538);
+            this.ostukorv.Name = "ostukorv";
+            this.ostukorv.Size = new System.Drawing.Size(242, 57);
+            this.ostukorv.TabIndex = 83;
+            this.ostukorv.Text = "Vaata ostukorvi";
+            this.ostukorv.UseVisualStyleBackColor = false;
+            this.ostukorv.Click += new System.EventHandler(this.ostukorv_Click);
             // 
-            // button16
+            // kassa
             // 
-            this.button16.BackColor = System.Drawing.Color.LimeGreen;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button16.Location = new System.Drawing.Point(247, 536);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(237, 57);
-            this.button16.TabIndex = 82;
-            this.button16.Text = "Kassa";
-            this.button16.UseVisualStyleBackColor = false;
+            this.kassa.BackColor = System.Drawing.Color.LimeGreen;
+            this.kassa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.kassa.Location = new System.Drawing.Point(247, 536);
+            this.kassa.Name = "kassa";
+            this.kassa.Size = new System.Drawing.Size(237, 57);
+            this.kassa.TabIndex = 82;
+            this.kassa.Text = "KASSASSE";
+            this.kassa.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // Toys
             // 
-            this.button15.BackColor = System.Drawing.Color.Plum;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Location = new System.Drawing.Point(38, 539);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(138, 54);
-            this.button15.TabIndex = 81;
-            this.button15.Text = "<-Mänguasjad";
-            this.button15.UseVisualStyleBackColor = false;
+            this.Toys.BackColor = System.Drawing.Color.Plum;
+            this.Toys.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Toys.Location = new System.Drawing.Point(38, 539);
+            this.Toys.Name = "Toys";
+            this.Toys.Size = new System.Drawing.Size(138, 54);
+            this.Toys.TabIndex = 81;
+            this.Toys.Text = "<-Mänguasjad";
+            this.Toys.UseVisualStyleBackColor = false;
+            this.Toys.Click += new System.EventHandler(this.Toys_Click);
             // 
             // button14
             // 
@@ -292,9 +296,10 @@
             // alert
             // 
             this.alert.AutoSize = true;
-            this.alert.Location = new System.Drawing.Point(87, 445);
+            this.alert.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.alert.Location = new System.Drawing.Point(315, 445);
             this.alert.Name = "alert";
-            this.alert.Size = new System.Drawing.Size(32, 13);
+            this.alert.Size = new System.Drawing.Size(56, 22);
             this.alert.TabIndex = 99;
             this.alert.Text = "TOIT";
             // 
@@ -438,12 +443,25 @@
             this.pictureBox1.TabIndex = 85;
             this.pictureBox1.TabStop = false;
             // 
-            // Toid
+            // Algus
+            // 
+            this.Algus.BackColor = System.Drawing.Color.LimeGreen;
+            this.Algus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Algus.Location = new System.Drawing.Point(500, 543);
+            this.Algus.Name = "Algus";
+            this.Algus.Size = new System.Drawing.Size(194, 42);
+            this.Algus.TabIndex = 100;
+            this.Algus.Text = "Algusesse";
+            this.Algus.UseVisualStyleBackColor = false;
+            this.Algus.Click += new System.EventHandler(this.Algus_Click);
+            // 
+            // Toit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.Algus);
             this.Controls.Add(this.alert);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
@@ -459,10 +477,10 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.Clothing);
+            this.Controls.Add(this.ostukorv);
+            this.Controls.Add(this.kassa);
+            this.Controls.Add(this.Toys);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.kako);
             this.Controls.Add(this.activia);
@@ -477,7 +495,7 @@
             this.Controls.Add(this.koer);
             this.Controls.Add(this.alco);
             this.Controls.Add(this.Avokaado);
-            this.Name = "Toid";
+            this.Name = "Toit";
             this.Text = "Toid";
             this.Load += new System.EventHandler(this.Toid_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -515,10 +533,10 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button Clothing;
+        private System.Windows.Forms.Button ostukorv;
+        private System.Windows.Forms.Button kassa;
+        private System.Windows.Forms.Button Toys;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button kako;
         private System.Windows.Forms.Button activia;
@@ -534,5 +552,6 @@
         private System.Windows.Forms.Button alco;
         private System.Windows.Forms.Button Avokaado;
         private System.Windows.Forms.Label alert;
+        private System.Windows.Forms.Button Algus;
     }
 }

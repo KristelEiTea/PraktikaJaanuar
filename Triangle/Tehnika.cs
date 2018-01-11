@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Diagnostics;
 namespace Triangle
 {
     public partial class Tehnika : Form
@@ -127,6 +127,27 @@ namespace Triangle
             Form1 f = new Form1();
             f.ShowDialog();
             this.Close();
+        }
+
+        private void KassasseNupp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToManguasjadNupp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Manguasjad m = new Manguasjad();
+            m.ShowDialog();
+            this.Close();
+        }
+
+        private void OstukorvNupp_Click(object sender, EventArgs e)
+        {
+            Process p = new Process();
+            Process.Start(@"..\..\Inventory.txt");
+            p.Close();
+
         }
     }
 }
