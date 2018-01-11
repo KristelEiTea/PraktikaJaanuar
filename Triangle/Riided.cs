@@ -210,5 +210,135 @@ namespace Triangle
             this.Close();
 
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            string riie = System.Environment.NewLine + " Naiste pluus must, 20€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie, " ");
+            File.WriteAllText(path, text);
+            if (riie == text)
+            {
+                Ostja.Raha += 20;
+                Ostja.Summa -= 20;
+            }
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            string riie2 = System.Environment.NewLine + "Meeste pluus (valik), 27€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie2, " ");
+            File.WriteAllText(path, text);
+            if (riie2 == text)
+            {
+                Ostja.Raha += 27;
+                Ostja.Summa -= 27;
+            }
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            string riie3 = System.Environment.NewLine + " Meeste teksad, 39€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie3, " ");
+            File.WriteAllText(path, text);
+            if (riie3 == text)
+            {
+                Ostja.Raha += 39;
+                Ostja.Summa -= 39;
+            }
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            string riie4 = System.Environment.NewLine + " Naiste pluus roosa, 25€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie4, " ");
+            File.WriteAllText(path, text);
+            if (riie4 == text)
+            {
+                Ostja.Raha += 25;
+                Ostja.Summa -= 25;
+            }
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            string riie5 = System.Environment.NewLine + " Naiste pluus pitsiline, 30€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie5, " ");
+            File.WriteAllText(path, text);
+            if (riie5 == text)
+            {
+                Ostja.Raha += 30;
+                Ostja.Summa -= 30;
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            string riie6 = System.Environment.NewLine + " Naiste pluus valge, 28€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie6, " ");
+            File.WriteAllText(path, text);
+            if (riie6 == text)
+            {
+                Ostja.Raha += 28;
+                Ostja.Summa -= 28;
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            string riie7 = System.Environment.NewLine + " Naiste teksad, 35€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie7, " ");
+            File.WriteAllText(path, text);
+            if (riie7 == text)
+            {
+                Ostja.Raha += 35;
+                Ostja.Summa -= 35;
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            string riie8 = System.Environment.NewLine + " Tüdrukute pluus punane pitsidega, 12€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie8, " ");
+            File.WriteAllText(path, text);
+            if (riie8 == text)
+            {
+                Ostja.Raha += 12;
+                Ostja.Summa -= 12;
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            string riie9 = System.Environment.NewLine + " Käekott must, 35€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie9, " ");
+            File.WriteAllText(path, text);
+            if (riie9 == text)
+            {
+                Ostja.Raha += 35;
+                Ostja.Summa -= 35;
+            }
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            string riie10 = System.Environment.NewLine + " Meeste pluus (valik), 32€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(riie10, " ");
+            File.WriteAllText(path, text);
+            if (riie10 == text)
+            {
+                Ostja.Raha += 32;
+                Ostja.Summa -= 32;
+            }
+        }
     }
 }

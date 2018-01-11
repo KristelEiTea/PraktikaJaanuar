@@ -148,20 +148,41 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            string kassa4 = System.Environment.NewLine + "Puuviljakommid Lotte, MAIASMOKK, 16g 1€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa4, " ");
+            File.WriteAllText(path, text);
+            if (kassa4 == text)
+            {
+                Ostja.Raha += 1;
+                Ostja.Summa -= 1;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            string kassa9 = System.Environment.NewLine + "Naturaalne vesi, SAAREMAA, 5L 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa9, " ");
+            File.WriteAllText(path, text);
+            if (kassa9 == text)
+            {
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 f = new Form1();
-            f.ShowDialog();
-            this.Close();
+            string kassa6 = System.Environment.NewLine + "Tuletikud, 10tk kiles, SELVER 1€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa6, " ");
+            File.WriteAllText(path, text);
+            if (kassa6 == text)
+            {
+                Ostja.Raha += 1;
+                Ostja.Summa -= 1;
+            }
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -170,6 +191,97 @@ namespace Triangle
             Form1 f = new Form1();
             f.ShowDialog();
             this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string kassa1 = System.Environment.NewLine + " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa1, " ");
+            File.WriteAllText(path, text);
+            if (kassa1 == text)
+            {
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string kassa2 = System.Environment.NewLine + "Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa2, " ");
+            File.WriteAllText(path, text);
+            if (kassa2 == text)
+            {
+                Ostja.Raha += 3;
+                Ostja.Summa -= 3;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string kassa7 = System.Environment.NewLine + "Sinise kartuli krõpsud, TERRA, 110g 4€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa7, " ");
+            File.WriteAllText(path, text);
+            if (kassa7 == text)
+            {
+                Ostja.Raha += 4;
+                Ostja.Summa -= 4;
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            string kassa3 = System.Environment.NewLine + "Kilekotid sangadega, läbip. 5L, MCLEAN, 40tk 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa3, " ");
+            File.WriteAllText(path, text);
+            if (kassa3 == text)
+            {
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string kassa8 = System.Environment.NewLine + "Jäätis Classic, MAGNUM, 297g 7€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa8, " ");
+            File.WriteAllText(path, text);
+            if (kassa8 == text)
+            {
+                Ostja.Raha += 7;
+                Ostja.Summa -= 7;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string kassa5 = System.Environment.NewLine + "Müslibatoon šokolaadi-banaani, CORNY, 6x25g 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa5, " ");
+            File.WriteAllText(path, text);
+            if (kassa5 == text)
+            {
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string kassa10 = System.Environment.NewLine + "Säraküünlad süda, LINDERS/KARIBOO, 4tk 5€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(kassa10, " ");
+            File.WriteAllText(path, text);
+            if (kassa10 == text)
+            {
+                Ostja.Raha += 5;
+                Ostja.Summa -= 5;
+            }
         }
     }
 }

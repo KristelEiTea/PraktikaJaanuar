@@ -135,7 +135,7 @@ namespace Triangle
             Toit s = new Toit();
             s.ShowDialog();
             this.Close();
-            
+
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -153,5 +153,136 @@ namespace Triangle
             k.ShowDialog();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string lelu6 = System.Environment.NewLine + "POSH PAWS MINIONS Pehme ükssarvik 19€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu6, " ");
+            File.WriteAllText(path, text);
+            if (lelu6 == text)
+            {
+                Ostja.Raha += 19;
+                Ostja.Summa -= 19;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string lelu7 = System.Environment.NewLine + "Mingi Karu 1€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu7, " ");
+            File.WriteAllText(path, text);
+            if (lelu7 == text)
+            {
+                Ostja.Raha += 1;
+                Ostja.Summa -= 1;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string lelu2 = System.Environment.NewLine + "MYSTERY Ajalooline mõõk 14€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu2, " ");
+            File.WriteAllText(path, text);
+            if (lelu2 == text)
+            {
+                Ostja.Raha += 14;
+                Ostja.Summa -= 14;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string lelu3 = System.Environment.NewLine + "JAKKS Real Constuctions SUUR TÖÖKODA 20€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu3, " ");
+            File.WriteAllText(path, text);
+            if (lelu3 == text)
+            {
+                Ostja.Raha += 20;
+                Ostja.Summa -= 20;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga 15€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu1, " ");
+            File.WriteAllText(path, text);
+            if (lelu1 == text)
+            {
+                Ostja.Raha += 15;
+                Ostja.Summa -= 15;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string lelu8 = System.Environment.NewLine + "FOCO Spinner Batman 9€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu8, " ");
+            File.WriteAllText(path, text);
+            if (lelu8 == text)
+            {
+                Ostja.Raha += 9;
+                Ostja.Summa -= 9;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string lelu9 = System.Environment.NewLine + "JANOD Põder 18€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu9, " ");
+            File.WriteAllText(path, text);
+            if (lelu9 == text)
+            {
+                Ostja.Raha += 18;
+                Ostja.Summa -= 18;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string lelu4 = System.Environment.NewLine + "CHICCO Voodikõrin Punamütsike 23€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu4, " ");
+            File.WriteAllText(path, text);
+            if (lelu4 == text)
+            {
+                Ostja.Raha += 23;
+                Ostja.Summa -= 23;
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            string lelu5 = System.Environment.NewLine + "CHICCO Rõngastest torn 10€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu5, " ");
+            File.WriteAllText(path, text);
+            if (lelu5 == text)
+            {
+                Ostja.Raha += 10;
+                Ostja.Summa -= 10;
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott 7€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(lelu10, " ");
+            File.WriteAllText(path, text);
+            if (lelu10 == text)
+            {
+                Ostja.Raha += 7;
+                Ostja.Summa -= 7;
+            }
+        }
     }
 }
+
