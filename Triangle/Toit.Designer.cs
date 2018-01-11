@@ -100,6 +100,7 @@
             this.ostukorv.TabIndex = 83;
             this.ostukorv.Text = "Vaata ostukorvi";
             this.ostukorv.UseVisualStyleBackColor = false;
+            this.ostukorv.Click += new System.EventHandler(this.ostukorv_Click);
             // 
             // kassa
             // 

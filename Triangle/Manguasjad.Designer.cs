@@ -100,6 +100,7 @@
             this.button12.TabIndex = 45;
             this.button12.Text = "Vaata ostukorvi";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // Tehnikasse
             // 
