@@ -53,6 +53,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -327,13 +328,26 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Firebrick;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(718, 555);
+            this.button1.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(143, 282);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 58);
+            this.button1.Size = new System.Drawing.Size(25, 33);
             this.button1.TabIndex = 68;
-            this.button1.Text = "Algusesse";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Text = "-";
+            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Firebrick;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Location = new System.Drawing.Point(729, 555);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(147, 58);
+            this.button11.TabIndex = 69;
+            this.button11.Text = "Algusesse";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // SeeOnKassa
             // 
@@ -341,6 +355,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
@@ -403,5 +418,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button11;
     }
 }

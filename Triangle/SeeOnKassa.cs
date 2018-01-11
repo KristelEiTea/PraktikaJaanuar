@@ -163,5 +163,13 @@ namespace Triangle
             f.ShowDialog();
             this.Close();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f = new Form1();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }
