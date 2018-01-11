@@ -348,7 +348,7 @@
             // 
             this.button11.BackColor = System.Drawing.Color.Firebrick;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Location = new System.Drawing.Point(729, 555);
+            this.button11.Location = new System.Drawing.Point(761, 555);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(147, 58);
             this.button11.TabIndex = 69;
