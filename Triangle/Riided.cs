@@ -164,7 +164,10 @@ namespace Triangle
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            SeeOnKassa k = new SeeOnKassa();
+            k.ShowDialog();
+            this.Close();
         }
 
         private void button14_Click(object sender, EventArgs e)

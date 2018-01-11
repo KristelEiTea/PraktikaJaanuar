@@ -112,6 +112,7 @@
             this.kassa.TabIndex = 82;
             this.kassa.Text = "KASSASSE";
             this.kassa.UseVisualStyleBackColor = false;
+            this.kassa.Click += new System.EventHandler(this.kassa_Click);
             // 
             // Toys
             // 
