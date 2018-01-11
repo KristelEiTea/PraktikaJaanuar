@@ -145,5 +145,13 @@ namespace Triangle
             Process.Start(@"..\..\..\Inventory.txt");
             p.Close();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SeeOnKassa k = new SeeOnKassa();
+            k.ShowDialog();
+            this.Close();
+        }
     }
 }

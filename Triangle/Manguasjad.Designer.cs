@@ -89,6 +89,7 @@
             this.button13.TabIndex = 46;
             this.button13.Text = "KASSASSE";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 

@@ -185,5 +185,13 @@ namespace Triangle
             p.Close();
 
         }
+
+        private void kassa_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SeeOnKassa k = new SeeOnKassa();
+            k.ShowDialog();
+            this.Close();
+        }
     }
 }

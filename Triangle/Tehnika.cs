@@ -141,7 +141,10 @@ namespace Triangle
 
         private void KassasseNupp_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            SeeOnKassa k = new SeeOnKassa();
+            k.ShowDialog();
+            this.Close();
         }
 
         private void ToManguasjadNupp_Click(object sender, EventArgs e)

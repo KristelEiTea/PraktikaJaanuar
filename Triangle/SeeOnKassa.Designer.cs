@@ -40,7 +40,6 @@
             this.musli = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.alert = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.Raha = new System.Windows.Forms.Button();
             this.Maksa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -179,21 +178,13 @@
             // alert
             // 
             this.alert.AutoSize = true;
+            this.alert.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.alert.Location = new System.Drawing.Point(80, 419);
             this.alert.Name = "alert";
-            this.alert.Size = new System.Drawing.Size(36, 26);
+            this.alert.Size = new System.Drawing.Size(58, 50);
             this.alert.TabIndex = 27;
             this.alert.Text = "Kassa\r\n\r\n";
             this.alert.Click += new System.EventHandler(this.alert_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Raha
             // 
@@ -227,7 +218,6 @@
             this.ClientSize = new System.Drawing.Size(1129, 633);
             this.Controls.Add(this.Maksa);
             this.Controls.Add(this.Raha);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.alert);
             this.Controls.Add(this.vesi);
             this.Controls.Add(this.jäätis);
@@ -262,7 +252,6 @@
         private System.Windows.Forms.Button musli;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label alert;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Raha;
         private System.Windows.Forms.Button Maksa;
     }
