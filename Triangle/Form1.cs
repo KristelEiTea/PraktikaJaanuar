@@ -55,5 +55,18 @@ namespace Triangle
 
             this.Close();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label6.Text = Ostja.Raha + " euro(t)";
+
+        }
+
+       public void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        
     }
 }
