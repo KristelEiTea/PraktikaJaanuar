@@ -132,7 +132,7 @@ namespace Triangle
 
             Process p = new Process();
             Process.Start(@"..\..\Inventory.txt");
-            this.Close();
+            p.Close();
         }
     }
 }
