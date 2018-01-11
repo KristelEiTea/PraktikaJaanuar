@@ -496,7 +496,7 @@
             this.Controls.Add(this.alco);
             this.Controls.Add(this.Avokaado);
             this.Name = "Toit";
-            this.Text = "Toid";
+            this.Text = "Toit";
             this.Load += new System.EventHandler(this.Toid_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
