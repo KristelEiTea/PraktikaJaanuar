@@ -51,12 +51,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kassa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Kassa.Designer.cs">
-      <DependentUpon>Kassa.cs</DependentUpon>
-    </Compile>
     <Compile Include="Manguasjad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,9 +83,6 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Kassa.resx">
-      <DependentUpon>Kassa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manguasjad.resx">
       <DependentUpon>Manguasjad.cs</DependentUpon>
