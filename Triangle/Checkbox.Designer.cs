@@ -79,11 +79,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label1.Location = new System.Drawing.Point(363, 26);
+            this.label1.Location = new System.Drawing.Point(227, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 24);
+            this.label1.Size = new System.Drawing.Size(657, 24);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Palun täitke see lihtne küsimustik.";
+            this.label1.Text = "Palun täitke see lihtne küsimustik. Nii saame teada teie rahalise seisu.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label8
@@ -108,6 +108,7 @@
             this.Submit.TabIndex = 39;
             this.Submit.Text = "Saadan vastused!";
             this.Submit.UseVisualStyleBackColor = false;
+            this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // radioButton5
             // 
