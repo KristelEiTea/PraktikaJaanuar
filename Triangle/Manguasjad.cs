@@ -24,6 +24,7 @@ namespace Triangle
         private void button10_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 14;
+            Ostja.Summa += 14;
             string lelu2 = System.Environment.NewLine + "MYSTERY Ajalooline mõõk 14€";
             File.AppendAllText(path, lelu2);
             alert.Text = alertString + " " + button10.Text;
@@ -32,6 +33,7 @@ namespace Triangle
         private void button9_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 20;
+            Ostja.Summa += 20;
             string lelu3 = System.Environment.NewLine + "JAKKS Real Constuctions SUUR TÖÖKODA 20€ ";
             File.AppendAllText(path, lelu3);
             alert.Text = alertString + " " + button9.Text;
@@ -40,6 +42,7 @@ namespace Triangle
         private void button8_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 15;
+            Ostja.Summa += 15;
             string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga 15€";
             File.AppendAllText(path, lelu1);
             alert.Text = alertString + " " + button8.Text;
@@ -48,6 +51,7 @@ namespace Triangle
         private void Kõrin_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 23;
+            Ostja.Summa += 23;
             string lelu4 = System.Environment.NewLine + "CHICCO Voodikõrin Punamütsike 23€";
             File.AppendAllText(path, lelu4);
             alert.Text = alertString + " " + Kõrin.Text;
@@ -56,6 +60,7 @@ namespace Triangle
         private void rõngad_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 10;
+            Ostja.Summa += 10;
             string lelu5 = System.Environment.NewLine + "CHICCO Rõngastest torn 10€ ";
             File.AppendAllText(path, lelu5);
             alert.Text = alertString + " " + rõngad.Text;
@@ -64,6 +69,7 @@ namespace Triangle
         private void minion_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 19;
+            Ostja.Summa += 19;
             string lelu6 = System.Environment.NewLine + "POSH PAWS MINIONS Pehme ükssarvik 19€ ";
             File.AppendAllText(path, lelu6);
             alert.Text = alertString + " " + minion.Text;
@@ -72,6 +78,7 @@ namespace Triangle
         private void Karu_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 1;
+            Ostja.Summa += 1;
             string lelu7 = System.Environment.NewLine + "Mingi Karu 1€ ";
             File.AppendAllText(path, lelu7);
             alert.Text = alertString + " " + Karu.Text;
@@ -81,6 +88,7 @@ namespace Triangle
         private void spinner_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 9;
+            Ostja.Summa += 9;
             string lelu8 = System.Environment.NewLine + "FOCO Spinner Batman 9€ ";
             File.AppendAllText(path, lelu8);
             alert.Text = alertString + " " + spinner.Text;
@@ -89,6 +97,7 @@ namespace Triangle
         private void pöder_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 18;
+            Ostja.Summa += 18;
             string lelu9 = System.Environment.NewLine + "JANOD Põder 18€ ";
             File.AppendAllText(path, lelu9);
             alert.Text = alertString + " " + pöder.Text;
@@ -97,6 +106,7 @@ namespace Triangle
         private void kotike_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 7;
+            Ostja.Summa += 7;
             string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott 7€";
             File.AppendAllText(path, lelu10);
             alert.Text = alertString + " " + kotike.Text;

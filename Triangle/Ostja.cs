@@ -10,8 +10,10 @@ namespace Triangle
     {
         public Ostja()
         {
-            Raha = 500;
+            Raha = 0;
+            Summa = 0;
         }
         public static int Raha { get; set; }
+        public static int Summa { get; set; }
     }
 }

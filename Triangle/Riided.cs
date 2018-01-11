@@ -75,6 +75,7 @@ namespace Triangle
             string riie = System.Environment.NewLine + " Naiste pluus must, 20€";
             File.AppendAllText(path, riie);
             Ostja.Raha -= 20;
+            Ostja.Summa += 20;
             alert.Text = alertString + " " + button1.Text;
         }
 
@@ -83,6 +84,7 @@ namespace Triangle
             string riie2 = System.Environment.NewLine + "Meeste pluus (valik), 27€";
             File.AppendAllText(path, riie2);
             Ostja.Raha -= 27;
+            Ostja.Summa += 27;
             alert.Text = alertString + " " + button2.Text;
         }
 
@@ -91,6 +93,7 @@ namespace Triangle
             string riie3 = System.Environment.NewLine + " Meeste teksad, 39€";
             File.AppendAllText(path, riie3);
             Ostja.Raha -= 39;
+            Ostja.Summa += 39;
             alert.Text = alertString + " " + button4.Text;
 
         }
@@ -100,6 +103,7 @@ namespace Triangle
             string riie4 = System.Environment.NewLine + " Naiste pluus roosa, 25€";
             File.AppendAllText(path, riie4);
             Ostja.Raha -= 25;
+            Ostja.Summa += 25;
             alert.Text = alertString + " " + button3.Text;
 
         }
@@ -109,6 +113,7 @@ namespace Triangle
             string riie5 = System.Environment.NewLine + " Naiste pluus pitsiline, 30€";
             File.AppendAllText(path, riie5);
             Ostja.Raha -= 30;
+            Ostja.Summa += 30;
             alert.Text = alertString + " " + button5.Text;
         }
 
@@ -117,6 +122,7 @@ namespace Triangle
             string riie6 = System.Environment.NewLine + " Naiste pluus valge, 28€";
             File.AppendAllText(path, riie6);
             Ostja.Raha -= 28;
+            Ostja.Summa += 28;
             alert.Text = alertString + " " + button10.Text;
         }
 
@@ -125,6 +131,7 @@ namespace Triangle
             string riie7 = System.Environment.NewLine + " Naiste teksad, 35€";
             File.AppendAllText(path, riie7);
             Ostja.Raha -= 35;
+            Ostja.Summa += 35;
             alert.Text = alertString + " " + button9.Text;
 
         }
@@ -134,6 +141,7 @@ namespace Triangle
             string riie8 = System.Environment.NewLine + " Tüdrukute pluus punane pitsidega, 12€";
             File.AppendAllText(path, riie8);
             Ostja.Raha -= 12;
+            Ostja.Summa += 12;
             alert.Text = alertString + " " + button8.Text;
 
         }
@@ -143,6 +151,7 @@ namespace Triangle
             string riie9 = System.Environment.NewLine + " Käekott must, 35€";
             File.AppendAllText(path, riie9);
             Ostja.Raha -= 35;
+            Ostja.Summa += 35;
             alert.Text = alertString + " " + button7.Text;
         }
 
@@ -151,6 +160,7 @@ namespace Triangle
             string riie10 = System.Environment.NewLine + " Meeste pluus (valik), 32€";
             File.AppendAllText(path, riie10);
             Ostja.Raha -= 32;
+            Ostja.Summa += 32;
             alert.Text = alertString + " " + button6.Text;
         }
 
