@@ -77,6 +77,7 @@ namespace Triangle
             alert.Text = alertString + " " + Karu.Text;
         }
 
+
         private void spinner_Click(object sender, EventArgs e)
         {
             Ostja.Raha -= 9;
@@ -131,7 +132,7 @@ namespace Triangle
         {
 
             Process p = new Process();
-            Process.Start(@"..\..\Inventory.txt");
+            Process.Start(@"..\..\..\Inventory.txt");
             p.Close();
         }
     }

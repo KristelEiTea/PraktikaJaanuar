@@ -145,7 +145,7 @@ namespace Triangle
         private void OstukorvNupp_Click(object sender, EventArgs e)
         {
             Process p = new Process();
-            Process.Start(@"..\..\Inventory.txt");
+            Process.Start(@"..\..\..\Inventory.txt");
             p.Close();
 
         }

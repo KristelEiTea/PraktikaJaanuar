@@ -170,7 +170,7 @@ namespace Triangle
         private void button14_Click(object sender, EventArgs e)
         {
             Process p = new Process();
-            Process.Start(@"..\..\Inventory.txt");
+            Process.Start(@"..\..\..\Inventory.txt");
             p.Close();
 
 
