@@ -23,10 +23,11 @@ namespace Triangle
 
         private void kommid_Click(object sender, EventArgs e)
         {
-                string kassa1 = System.Environment.NewLine + " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
-                File.AppendAllText(path, kassa1);
-                Ostja.Raha -= 2;
-                alert.Text = alertString + " " + kommid.Text;
+            string kassa1 = System.Environment.NewLine + " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
+            File.AppendAllText(path, kassa1);
+            Ostja.Raha -= 2;
+            Ostja.Summa += 2;
+            alert.Text = alertString + " " + kommid.Text;
 
         }
 
@@ -34,7 +35,8 @@ namespace Triangle
         {
             string kassa2 = System.Environment.NewLine + "Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
             File.AppendAllText(path, kassa2);
-            Ostja.Raha -=3 ;
+            Ostja.Raha -= 3;
+            Ostja.Summa += 3;
             alert.Text = alertString + " " + salvratik.Text;
         }
         
@@ -43,6 +45,7 @@ namespace Triangle
             string kassa3 = System.Environment.NewLine + "Kilekotid sangadega, läbip. 5L, MCLEAN, 40tk 2€";
             File.AppendAllText(path, kassa3);
             Ostja.Raha -= 2;
+            Ostja.Summa += 2;
             alert.Text = alertString + " " + kilekott.Text;
         }
 
@@ -51,6 +54,7 @@ namespace Triangle
             string kassa4 = System.Environment.NewLine + "Puuviljakommid Lotte, MAIASMOKK, 16g 1€";
             File.AppendAllText(path, kassa4);
             Ostja.Raha -= 1;
+            Ostja.Summa += 1;
             alert.Text = alertString + " " + puuviljakommid.Text;
         }
 
@@ -59,6 +63,7 @@ namespace Triangle
             string kassa5 = System.Environment.NewLine + "Müslibatoon šokolaadi-banaani, CORNY, 6x25g 2€";
             File.AppendAllText(path, kassa5);
             Ostja.Raha -= 2;
+            Ostja.Summa += 2;
             alert.Text = alertString + " " + musli.Text;
         }
 
@@ -67,6 +72,7 @@ namespace Triangle
             string kassa6 = System.Environment.NewLine + "Tuletikud, 10tk kiles, SELVER 1€";
             File.AppendAllText(path, kassa6);
             Ostja.Raha -= 1;
+            Ostja.Summa += 1;
             alert.Text = alertString + " " + tikud.Text;
         }
 
@@ -75,6 +81,7 @@ namespace Triangle
             string kassa7 = System.Environment.NewLine + "Sinise kartuli krõpsud, TERRA, 110g 4€";
             File.AppendAllText(path, kassa7);
             Ostja.Raha -= 4;
+            Ostja.Summa += 4;
             alert.Text = alertString + " " + sipsid.Text;
         }
 
@@ -83,6 +90,7 @@ namespace Triangle
             string kassa8 = System.Environment.NewLine + "Jäätis Classic, MAGNUM, 297g 7€";
             File.AppendAllText(path, kassa8);
             Ostja.Raha -= 7;
+            Ostja.Summa += 7;
             alert.Text = alertString + " " + jäätis.Text;
         }
 
@@ -91,6 +99,7 @@ namespace Triangle
             string kassa9= System.Environment.NewLine + "Naturaalne vesi, SAAREMAA, 5L 2€";
             File.AppendAllText(path, kassa9);
             Ostja.Raha -= 2;
+            Ostja.Summa += 2;
             alert.Text = alertString + " " + vesi.Text;
         }
 
@@ -99,6 +108,7 @@ namespace Triangle
             string kassa10 = System.Environment.NewLine + "Säraküünlad süda, LINDERS/KARIBOO, 4tk 5€";
             File.AppendAllText(path, kassa10);
             Ostja.Raha -= 3;
+            Ostja.Summa += 3;
             alert.Text = alertString + " " + kuunlad.Text;
         }
 

@@ -23,8 +23,6 @@ namespace Triangle
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Checkbox());
-            string sum = "Hetkene kauba maksumus on: " + Ostja.Summa.ToString();
-            File.AppendAllText(path, sum);
         }
     }
 }
