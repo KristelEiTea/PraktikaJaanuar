@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Triangle
 {
@@ -160,6 +161,15 @@ namespace Triangle
             Riided r = new Riided();
             r.ShowDialog();
             this.Close();
+        }
+
+        private void ostukorv_Click(object sender, EventArgs e)
+        {
+
+            Process p = new Process();
+            Process.Start(@"..\..\Inventory.txt");
+            p.Close();
+
         }
     }
 }

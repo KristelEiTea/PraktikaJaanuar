@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Triangle
 {
@@ -124,6 +125,14 @@ namespace Triangle
             s.ShowDialog();
             this.Close();
             
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+            Process p = new Process();
+            Process.Start(@"..\..\Inventory.txt");
+            this.Close();
         }
     }
 }

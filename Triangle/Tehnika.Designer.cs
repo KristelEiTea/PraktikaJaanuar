@@ -89,6 +89,7 @@
             this.OstukorvNupp.TabIndex = 41;
             this.OstukorvNupp.Text = "Vaata ostukorvi";
             this.OstukorvNupp.UseVisualStyleBackColor = false;
+            this.OstukorvNupp.Click += new System.EventHandler(this.OstukorvNupp_Click);
             // 
             // ToManguasjadNupp
             // 
