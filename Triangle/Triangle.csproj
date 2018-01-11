@@ -69,6 +69,12 @@
     <Compile Include="Riided.Designer.cs">
       <DependentUpon>Riided.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeeOnKassa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeOnKassa.Designer.cs">
+      <DependentUpon>SeeOnKassa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tehnika.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="Riided.resx">
       <DependentUpon>Riided.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeOnKassa.resx">
+      <DependentUpon>SeeOnKassa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tehnika.resx">
       <DependentUpon>Tehnika.cs</DependentUpon>
@@ -236,6 +245,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1ea8cc197be52e8a82834e53295ff2a0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiisu1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

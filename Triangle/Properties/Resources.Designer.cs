@@ -333,6 +333,16 @@ namespace Triangle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kiisu1 {
+            get {
+                object obj = ResourceManager.GetObject("kiisu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap leg_j_9032 {
             get {
                 object obj = ResourceManager.GetObject("leg-j-9032", resourceCulture);
