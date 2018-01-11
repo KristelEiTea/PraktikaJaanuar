@@ -19,7 +19,7 @@ namespace Triangle
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Toid t = new Toid();
+            Toit t = new Toit();
             t.ShowDialog();
             this.Close();
         }
@@ -48,6 +48,7 @@ namespace Triangle
             this.Hide();
             Manguasjad t = new Manguasjad();
             t.ShowDialog();
+            this.Close();
         }
         private void button5_Click(object sender, EventArgs e)
         {

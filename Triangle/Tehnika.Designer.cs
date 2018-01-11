@@ -98,6 +98,7 @@
             this.ToManguasjadNupp.TabIndex = 40;
             this.ToManguasjadNupp.Text = "Mänguasjad --->";
             this.ToManguasjadNupp.UseVisualStyleBackColor = true;
+            this.ToManguasjadNupp.Click += new System.EventHandler(this.ToManguasjadNupp_Click);
             // 
             // KassasseNupp
             // 
@@ -110,6 +111,7 @@
             this.KassasseNupp.TabIndex = 39;
             this.KassasseNupp.Text = "KASSASSE";
             this.KassasseNupp.UseVisualStyleBackColor = false;
+            this.KassasseNupp.Click += new System.EventHandler(this.KassasseNupp_Click);
             // 
             // ToRiidedNupp
             // 

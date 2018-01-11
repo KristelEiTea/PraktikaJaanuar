@@ -99,5 +99,31 @@ namespace Triangle
             File.AppendAllText(path, lelu10);
             alert.Text = alertString + " " + kotike.Text;
         }
+
+        private void Algusesse_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            Form1 f = new Form1();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void Tehnikasse_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Tehnika t = new Tehnika();
+            t.ShowDialog();
+            this.Close();
+        }
+
+        private void Toitudesse_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Toit s = new Toit();
+            s.ShowDialog();
+            this.Close();
+            
+        }
     }
 }

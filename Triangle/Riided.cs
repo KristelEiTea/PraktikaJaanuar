@@ -156,7 +156,10 @@ namespace Triangle
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Toit s = new Toit();
+            s.ShowDialog();
+            this.Close();
         }
 
         private void button13_Click(object sender, EventArgs e)

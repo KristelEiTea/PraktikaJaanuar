@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button14 = new System.Windows.Forms.Button();
+            this.Toitudesse = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.Tehnikasse = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -53,6 +53,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Algusesse = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -65,50 +66,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button14
+            // Toitudesse
             // 
-            this.button14.BackColor = System.Drawing.Color.LightCoral;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button14.Location = new System.Drawing.Point(997, 520);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(120, 33);
-            this.button14.TabIndex = 47;
-            this.button14.Text = "Toidud";
-            this.button14.UseVisualStyleBackColor = false;
+            this.Toitudesse.BackColor = System.Drawing.Color.LightCoral;
+            this.Toitudesse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Toitudesse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Toitudesse.Location = new System.Drawing.Point(997, 520);
+            this.Toitudesse.Name = "Toitudesse";
+            this.Toitudesse.Size = new System.Drawing.Size(120, 33);
+            this.Toitudesse.TabIndex = 47;
+            this.Toitudesse.Text = "Toidud -->";
+            this.Toitudesse.UseVisualStyleBackColor = false;
+            this.Toitudesse.Click += new System.EventHandler(this.Toitudesse_Click);
             // 
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.Tomato;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Location = new System.Drawing.Point(295, 591);
+            this.button13.Location = new System.Drawing.Point(171, 591);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(147, 41);
             this.button13.TabIndex = 46;
-            this.button13.Text = "Kassa";
+            this.button13.Text = "KASSASSE";
             this.button13.UseVisualStyleBackColor = false;
             // 
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Tomato;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Location = new System.Drawing.Point(623, 591);
+            this.button12.Location = new System.Drawing.Point(756, 591);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(146, 41);
             this.button12.TabIndex = 45;
-            this.button12.Text = "Ostukorv";
+            this.button12.Text = "Vaata ostukorvi";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // Tehnikasse
             // 
-            this.button11.BackColor = System.Drawing.Color.LightCoral;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Location = new System.Drawing.Point(12, 520);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(104, 33);
-            this.button11.TabIndex = 44;
-            this.button11.Text = "Tehnika";
-            this.button11.UseVisualStyleBackColor = false;
+            this.Tehnikasse.BackColor = System.Drawing.Color.LightCoral;
+            this.Tehnikasse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Tehnikasse.Location = new System.Drawing.Point(12, 520);
+            this.Tehnikasse.Name = "Tehnikasse";
+            this.Tehnikasse.Size = new System.Drawing.Size(104, 33);
+            this.Tehnikasse.TabIndex = 44;
+            this.Tehnikasse.Text = "<-- Tehnika";
+            this.Tehnikasse.UseVisualStyleBackColor = false;
+            this.Tehnikasse.Click += new System.EventHandler(this.Tehnikasse_Click);
             // 
             // button10
             // 
@@ -339,17 +342,30 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
+            // Algusesse
+            // 
+            this.Algusesse.BackColor = System.Drawing.Color.Tomato;
+            this.Algusesse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Algusesse.Location = new System.Drawing.Point(461, 591);
+            this.Algusesse.Name = "Algusesse";
+            this.Algusesse.Size = new System.Drawing.Size(147, 41);
+            this.Algusesse.TabIndex = 49;
+            this.Algusesse.Text = "Algusesse";
+            this.Algusesse.UseVisualStyleBackColor = false;
+            this.Algusesse.Click += new System.EventHandler(this.Algusesse_Click);
+            // 
             // Manguasjad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Plum;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.Algusesse);
             this.Controls.Add(this.alert);
-            this.Controls.Add(this.button14);
+            this.Controls.Add(this.Toitudesse);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.Tehnikasse);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -389,10 +405,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button Toitudesse;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button Tehnikasse;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
@@ -414,5 +430,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label alert;
+        private System.Windows.Forms.Button Algusesse;
     }
 }

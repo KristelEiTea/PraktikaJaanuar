@@ -128,5 +128,18 @@ namespace Triangle
             f.ShowDialog();
             this.Close();
         }
+
+        private void KassasseNupp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToManguasjadNupp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Manguasjad m = new Manguasjad();
+            m.ShowDialog();
+            this.Close();
+        }
     }
 }
