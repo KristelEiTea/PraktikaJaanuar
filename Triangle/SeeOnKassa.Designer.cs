@@ -52,6 +52,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -212,7 +213,7 @@
             // 
             this.Maksa.BackColor = System.Drawing.Color.Salmon;
             this.Maksa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Maksa.Location = new System.Drawing.Point(152, 509);
+            this.Maksa.Location = new System.Drawing.Point(30, 500);
             this.Maksa.Name = "Maksa";
             this.Maksa.Size = new System.Drawing.Size(519, 58);
             this.Maksa.TabIndex = 30;
@@ -322,12 +323,25 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "label1";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Firebrick;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(718, 555);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 58);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "Algusesse";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // SeeOnKassa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button7);
@@ -388,7 +402,6 @@
         private System.Windows.Forms.Button button10;
 
         private System.Windows.Forms.Label label1;
-
-
+        private System.Windows.Forms.Button button1;
     }
 }
