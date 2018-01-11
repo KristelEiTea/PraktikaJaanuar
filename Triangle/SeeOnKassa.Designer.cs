@@ -39,6 +39,10 @@
             this.kommid = new System.Windows.Forms.Button();
             this.musli = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.alert = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Raha = new System.Windows.Forms.Button();
+            this.Maksa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,12 +176,59 @@
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
+            // alert
+            // 
+            this.alert.AutoSize = true;
+            this.alert.Location = new System.Drawing.Point(80, 419);
+            this.alert.Name = "alert";
+            this.alert.Size = new System.Drawing.Size(36, 26);
+            this.alert.TabIndex = 27;
+            this.alert.Text = "Kassa\r\n\r\n";
+            this.alert.Click += new System.EventHandler(this.alert_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Raha
+            // 
+            this.Raha.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Raha.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Raha.Location = new System.Drawing.Point(451, 509);
+            this.Raha.Name = "Raha";
+            this.Raha.Size = new System.Drawing.Size(147, 58);
+            this.Raha.TabIndex = 29;
+            this.Raha.Text = "Raha välja";
+            this.Raha.UseVisualStyleBackColor = false;
+            this.Raha.Click += new System.EventHandler(this.Raha_Click);
+            // 
+            // Maksa
+            // 
+            this.Maksa.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Maksa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Maksa.Location = new System.Drawing.Point(152, 509);
+            this.Maksa.Name = "Maksa";
+            this.Maksa.Size = new System.Drawing.Size(147, 58);
+            this.Maksa.TabIndex = 30;
+            this.Maksa.Text = "Maksa";
+            this.Maksa.UseVisualStyleBackColor = false;
+            this.Maksa.Click += new System.EventHandler(this.Maksa_Click);
+            // 
             // SeeOnKassa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(1129, 633);
+            this.Controls.Add(this.Maksa);
+            this.Controls.Add(this.Raha);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.alert);
             this.Controls.Add(this.vesi);
             this.Controls.Add(this.jäätis);
             this.Controls.Add(this.sipsid);
@@ -193,6 +244,7 @@
             this.Text = "SeeOnKassa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -209,5 +261,9 @@
         private System.Windows.Forms.Button kommid;
         private System.Windows.Forms.Button musli;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label alert;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Raha;
+        private System.Windows.Forms.Button Maksa;
     }
 }
