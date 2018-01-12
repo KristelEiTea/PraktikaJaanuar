@@ -36,13 +36,11 @@
             this.puuviljakommid = new System.Windows.Forms.Button();
             this.kilekott = new System.Windows.Forms.Button();
             this.salvratik = new System.Windows.Forms.Button();
-            this.kommid = new System.Windows.Forms.Button();
             this.musli = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.alert = new System.Windows.Forms.Label();
             this.Raha = new System.Windows.Forms.Button();
             this.Maksa = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -176,18 +174,6 @@
             this.salvratik.UseVisualStyleBackColor = false;
             this.salvratik.Click += new System.EventHandler(this.salvratik_Click);
             // 
-            // kommid
-            // 
-            this.kommid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.kommid.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.kommid.Location = new System.Drawing.Point(528, 409);
-            this.kommid.Name = "kommid";
-            this.kommid.Size = new System.Drawing.Size(164, 60);
-            this.kommid.TabIndex = 18;
-            this.kommid.Text = "Hapud kommid BRAIN BLASTERZ, BBB, 48g\r\n2€";
-            this.kommid.UseVisualStyleBackColor = false;
-            this.kommid.Click += new System.EventHandler(this.kommid_Click);
-            // 
             // musli
             // 
             this.musli.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -244,17 +230,6 @@
             this.Maksa.Text = "Maksa";
             this.Maksa.UseVisualStyleBackColor = false;
             this.Maksa.Click += new System.EventHandler(this.Maksa_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(702, 419);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 33);
-            this.button3.TabIndex = 58;
-            this.button3.Text = "-";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -652,7 +627,6 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Maksa);
             this.Controls.Add(this.Raha);
@@ -665,7 +639,6 @@
             this.Controls.Add(this.puuviljakommid);
             this.Controls.Add(this.kilekott);
             this.Controls.Add(this.salvratik);
-            this.Controls.Add(this.kommid);
             this.Controls.Add(this.musli);
             this.Controls.Add(this.pictureBox1);
             this.Name = "SeeOnKassa";
@@ -687,14 +660,11 @@
         private System.Windows.Forms.Button puuviljakommid;
         private System.Windows.Forms.Button kilekott;
         private System.Windows.Forms.Button salvratik;
-        private System.Windows.Forms.Button kommid;
         private System.Windows.Forms.Button musli;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label alert;
         private System.Windows.Forms.Button Raha;
         private System.Windows.Forms.Button Maksa;
-
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
