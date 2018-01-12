@@ -156,7 +156,7 @@ namespace Triangle
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string lelu6 = System.Environment.NewLine + "POSH PAWS MINIONS Pehme ükssarvik 19€ ";
+            string lelu6 = "POSH PAWS MINIONS Pehme ükssarvik 19€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu6, " ");
             File.WriteAllText(path, text);
