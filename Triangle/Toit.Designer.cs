@@ -244,7 +244,7 @@
             this.piim.Name = "piim";
             this.piim.Size = new System.Drawing.Size(134, 47);
             this.piim.TabIndex = 72;
-            this.piim.Text = "Täispiim pure, FARMI, 1 l\r\n1€";
+            this.piim.Text = "Täispiim pure, FARMI, 1L \r\n2€";
             this.piim.UseVisualStyleBackColor = false;
             this.piim.Click += new System.EventHandler(this.piim_Click);
             // 
