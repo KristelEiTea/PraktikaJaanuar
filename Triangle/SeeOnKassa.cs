@@ -152,11 +152,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa4, " ");
             File.WriteAllText(path, text);
-            if (kassa4 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 1;
-                Ostja.Summa -= 1;
+                if (line == kassa4)
+                {
+                    Ostja.Raha += 1;
+                    Ostja.Summa -= 1;
+                }
             }
+            text = text.Replace(kassa4, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -165,11 +171,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa9, " ");
             File.WriteAllText(path, text);
-            if (kassa9 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
+                if (line == kassa9)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
             }
+            text = text.Replace(kassa9, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -178,11 +190,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa6, " ");
             File.WriteAllText(path, text);
-            if (kassa6 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 1;
-                Ostja.Summa -= 1;
+                if (line == kassa6)
+                {
+                    Ostja.Raha += 1;
+                    Ostja.Summa -= 1;
+                }
             }
+            text = text.Replace(kassa6, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -199,25 +217,35 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa1, " ");
             File.WriteAllText(path, text);
-            if (kassa1 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
+                if (line == kassa1)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
             }
+            text = text.Replace(kassa1, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             string kassa2 = System.Environment.NewLine + "Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
             string text = File.ReadAllText(path);
-            if (text == kassa2)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 3;
-                Ostja.Summa -= 3;
+                if (line == kassa2)
+                {
+                    Ostja.Raha += 20;
+                    Ostja.Summa -= 20;
+                }
             }
             text = text.Replace(kassa2, " ");
             File.WriteAllText(path, text);
-            
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -226,24 +254,37 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa7, " ");
             File.WriteAllText(path, text);
-            if (kassa7 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 4;
-                Ostja.Summa -= 4;
+                if (line == kassa7)
+                {
+                    Ostja.Raha += 4;
+                    Ostja.Summa -= 4;
+                }
             }
+            text = text.Replace(kassa7, " ");
+            File.WriteAllText(path, text);
         }
 
-        private void button10_Click(object sender, EventArgs e)
+
+            private void button10_Click(object sender, EventArgs e)
         {
             string kassa3 = System.Environment.NewLine + "Kilekotid sangadega, läbip. 5L, MCLEAN, 40tk 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa3, " ");
             File.WriteAllText(path, text);
-            if (kassa3 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
+                if (line == kassa3)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
             }
+            text = text.Replace(kassa3, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -252,11 +293,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa8, " ");
             File.WriteAllText(path, text);
-            if (kassa8 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 7;
-                Ostja.Summa -= 7;
+                if (line == kassa8)
+                {
+                    Ostja.Raha += 7;
+                    Ostja.Summa -= 7;
+                }
             }
+            text = text.Replace(kassa8, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -265,11 +312,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa5, " ");
             File.WriteAllText(path, text);
-            if (kassa5 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
+                if (line == kassa5)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
             }
+            text = text.Replace(kassa5, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -278,11 +331,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(kassa10, " ");
             File.WriteAllText(path, text);
-            if (kassa10 == text)
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
             {
-                Ostja.Raha += 5;
-                Ostja.Summa -= 5;
+                if (line == kassa10)
+                {
+                    Ostja.Raha += 5;
+                    Ostja.Summa -= 5;
+                }
             }
+            text = text.Replace(kassa10, " ");
+            File.WriteAllText(path, text);
         }
 
         private void label1_Click(object sender, EventArgs e)

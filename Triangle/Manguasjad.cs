@@ -160,10 +160,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu6, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 19;
-                Ostja.Summa -= 19;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu6)
+                {
+                    Ostja.Raha += 19;
+                    Ostja.Summa -= 19;
+                }
+            }
+            text = text.Replace(lelu6, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -172,10 +180,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu7, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 1;
-                Ostja.Summa -= 1;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu7)
+                {
+                    Ostja.Raha += 1;
+                    Ostja.Summa -= 1;
+                }
+            }
+            text = text.Replace(lelu7, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -184,10 +199,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu2, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 14;
-                Ostja.Summa -= 14;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu2)
+                {
+                    Ostja.Raha += 14;
+                    Ostja.Summa -= 14;
+                }
+            }
+            text = text.Replace(lelu2, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -196,10 +218,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu3, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 20;
-                Ostja.Summa -= 20;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu3)
+                {
+                    Ostja.Raha += 20;
+                    Ostja.Summa -= 20;
+                }
+            }
+            text = text.Replace(lelu3, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -208,10 +238,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu1, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 15;
-                Ostja.Summa -= 15;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu1)
+                {
+                    Ostja.Raha += 15;
+                    Ostja.Summa -= 15;
+                }
+            }
+            text = text.Replace(lelu1, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -220,9 +258,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu8, " ");
             File.WriteAllText(path, text);
-                Ostja.Raha += 9;
-                Ostja.Summa -= 9;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu8)
+                {
+                    Ostja.Raha += 9;
+                    Ostja.Summa -= 9;
+                }
+            }
+            text = text.Replace(lelu8, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -231,10 +278,17 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu9, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 18;
-                Ostja.Summa -= 18;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu9)
+                {
+                    Ostja.Raha += 18;
+                    Ostja.Summa -= 18;
+                }
+            }
+            text = text.Replace(lelu9, " ");
+            File.WriteAllText(path, text);
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -243,10 +297,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu4, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 23;
-                Ostja.Summa -= 23;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu4)
+                {
+                    Ostja.Raha += 23;
+                    Ostja.Summa -= 23;
+                }
+            }
+            text = text.Replace(lelu4, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -255,10 +317,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu5, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 10;
-                Ostja.Summa -= 10;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu5)
+                {
+                    Ostja.Raha += 10;
+                    Ostja.Summa -= 10;
+                }
+            }
+            text = text.Replace(lelu5, " ");
+            File.WriteAllText(path, text);
+
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -267,10 +337,18 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(lelu10, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 7;
-                Ostja.Summa -= 7;
-            
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == lelu10)
+                {
+                    Ostja.Raha += 7;
+                    Ostja.Summa -= 7;
+                }
+            }
+            text = text.Replace(lelu10, " ");
+            File.WriteAllText(path, text);
+
         }
     }
 }
