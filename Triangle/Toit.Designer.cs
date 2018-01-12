@@ -148,7 +148,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(113, 67);
             this.button14.TabIndex = 80;
-            this.button14.Text = "Tualettpaber Delux Pure White, 3, ZEWA, 16 rl\r\n7,49€";
+            this.button14.Text = "Tualettpaber Delux Pure White, 3, ZEWA, 16 rl\r\n8€";
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
@@ -160,7 +160,7 @@
             this.kako.Name = "kako";
             this.kako.Size = new System.Drawing.Size(116, 67);
             this.kako.TabIndex = 79;
-            this.kako.Text = "Lahustuv kakao, NESQUIK, 400 g\r\n2,59€";
+            this.kako.Text = "Lahustuv kakao, NESQUIK, 400 g\r\n3€";
             this.kako.UseVisualStyleBackColor = false;
             this.kako.Click += new System.EventHandler(this.kako_Click);
             // 
@@ -172,7 +172,7 @@
             this.activia.Name = "activia";
             this.activia.Size = new System.Drawing.Size(124, 67);
             this.activia.TabIndex = 78;
-            this.activia.Text = "Joogijogurt maasika-kiivi, ACTIVIA, 300 g\r\n0,95€";
+            this.activia.Text = "Joogijogurt maasika-kiivi, ACTIVIA, 300 g\r\n1€";
             this.activia.UseVisualStyleBackColor = false;
             this.activia.Click += new System.EventHandler(this.activia_Click);
             // 
@@ -184,7 +184,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(134, 70);
             this.button11.TabIndex = 77;
-            this.button11.Text = "Kartulikrõpsud Koore-Sibula, PRINGLES, 165 g\r\n2,39€";
+            this.button11.Text = "Kartulikrõpsud Koore-Sibula, PRINGLES, 165 g\r\n3€";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -196,7 +196,7 @@
             this.coca.Name = "coca";
             this.coca.Size = new System.Drawing.Size(154, 48);
             this.coca.TabIndex = 76;
-            this.coca.Text = "Coca-Cola, COCA-COLA, 2 L\r\n1,69€";
+            this.coca.Text = "Coca-Cola, COCA-COLA, 2 L\r\n2€";
             this.coca.UseVisualStyleBackColor = false;
             this.coca.Click += new System.EventHandler(this.coca_Click);
             // 
@@ -208,7 +208,7 @@
             this.sushi.Name = "sushi";
             this.sushi.Size = new System.Drawing.Size(144, 59);
             this.sushi.TabIndex = 75;
-            this.sushi.Text = "Sushi Tokyo, SUSHI IN, 320 g\r\n6,49€";
+            this.sushi.Text = "Sushi Tokyo, SUSHI IN, 320 g\r\n7€";
             this.sushi.UseVisualStyleBackColor = false;
             this.sushi.Click += new System.EventHandler(this.sushi_Click);
             // 
@@ -220,7 +220,7 @@
             this.just.Name = "just";
             this.just.Size = new System.Drawing.Size(138, 83);
             this.just.TabIndex = 74;
-            this.just.Text = "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500 g\r\n4,59€";
+            this.just.Text = "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500 g\r\n5€";
             this.just.UseVisualStyleBackColor = false;
             this.just.Click += new System.EventHandler(this.just_Click);
             // 
@@ -232,7 +232,7 @@
             this.artur.Name = "artur";
             this.artur.Size = new System.Drawing.Size(142, 63);
             this.artur.TabIndex = 73;
-            this.artur.Text = "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150 g\r\nTavahind 1,99€\r\nSOODUS 1,50€";
+            this.artur.Text = "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150 g\r\nTavahind 2€\r\nSOODUS 2€";
             this.artur.UseVisualStyleBackColor = false;
             this.artur.Click += new System.EventHandler(this.artur_Click);
             // 
@@ -244,7 +244,7 @@
             this.piim.Name = "piim";
             this.piim.Size = new System.Drawing.Size(134, 47);
             this.piim.TabIndex = 72;
-            this.piim.Text = "Täispiim pure, FARMI, 1 l\r\n0,99€";
+            this.piim.Text = "Täispiim pure, FARMI, 1 l\r\n1€";
             this.piim.UseVisualStyleBackColor = false;
             this.piim.Click += new System.EventHandler(this.piim_Click);
             // 
@@ -256,7 +256,7 @@
             this.sai.Name = "sai";
             this.sai.Size = new System.Drawing.Size(136, 47);
             this.sai.TabIndex = 71;
-            this.sai.Text = "Suur Kodusai, FAZER, 500 g\r\n0,75€";
+            this.sai.Text = "Suur Kodusai, FAZER, 500 g\r\n1€\r\n";
             this.sai.UseVisualStyleBackColor = false;
             this.sai.Click += new System.EventHandler(this.sai_Click);
             // 
@@ -268,7 +268,7 @@
             this.mahl.Name = "mahl";
             this.mahl.Size = new System.Drawing.Size(121, 47);
             this.mahl.TabIndex = 70;
-            this.mahl.Text = "Õunamahl, PÕLTSAMAA, 1 L\r\n1,19€";
+            this.mahl.Text = "Õunamahl, PÕLTSAMAA, 1 L\r\n2€\r\n";
             this.mahl.UseVisualStyleBackColor = false;
             this.mahl.Click += new System.EventHandler(this.mahl_Click);
             // 
@@ -280,7 +280,7 @@
             this.koer.Name = "koer";
             this.koer.Size = new System.Drawing.Size(119, 47);
             this.koer.TabIndex = 69;
-            this.koer.Text = "Kirju koer batoonike, KALEV, 200 g\r\n1,79€";
+            this.koer.Text = "Kirju koer batoonike, KALEV, 200 g\r\n2€\r\n";
             this.koer.UseVisualStyleBackColor = false;
             this.koer.Click += new System.EventHandler(this.koer_Click);
             // 
@@ -292,7 +292,7 @@
             this.alco.Name = "alco";
             this.alco.Size = new System.Drawing.Size(130, 63);
             this.alco.TabIndex = 68;
-            this.alco.Text = "J.P. Chenet Rose Medium Sweet 75 cl\r\nTavahind 6,00€\r\nSOODUS 5,00€";
+            this.alco.Text = "J.P. Chenet Rose Medium Sweet 75 cl\r\nTavahind 6€\r\nSOODUS 5€";
             this.alco.UseVisualStyleBackColor = false;
             this.alco.Click += new System.EventHandler(this.alco_Click);
             // 
@@ -304,7 +304,7 @@
             this.Avokaado.Name = "Avokaado";
             this.Avokaado.Size = new System.Drawing.Size(121, 47);
             this.Avokaado.TabIndex = 67;
-            this.Avokaado.Text = "Avokaado, kg\r\n4,99€";
+            this.Avokaado.Text = "Avokaado, kg\r\n5€";
             this.Avokaado.UseVisualStyleBackColor = false;
             this.Avokaado.Click += new System.EventHandler(this.Avokaado_Click);
             // 
