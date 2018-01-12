@@ -291,5 +291,28 @@ namespace Triangle
             else
                 label1.Visible = true;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            label2.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(1).Take(1).First();
+            
+        }
+        
+        private void SeeOnKassa_Load(object sender, EventArgs e)
+        {
+            label2.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(1).Take(1).First();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            string tehnika8 = System.Environment.NewLine + label2.Text;
+            string text = File.ReadAllText(path);
+            text = text.Replace(tehnika8, " ");
+            File.WriteAllText(path, text);
+
+            Ostja.Raha += 75;
+            Ostja.Summa -= 75;
+
+        }
     }
 }
