@@ -165,7 +165,7 @@ namespace Triangle
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string tehnika9 = System.Environment.NewLine + " LG televiisor, 320€";
+            string tehnika9 = " LG televiisor, 320€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -182,7 +182,7 @@ namespace Triangle
 
         private void button14_Click(object sender, EventArgs e)
         {
-            string tehnika1 = System.Environment.NewLine + " Nööp-kõrvaklapid, 4€";
+            string tehnika1 =  " Nööp-kõrvaklapid, 4€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -199,7 +199,7 @@ namespace Triangle
 
         private void button12_Click(object sender, EventArgs e)
         {
-            string tehnika2 = System.Environment.NewLine + " Suured kõrvaklapid, 15€";
+            string tehnika2 =  " Suured kõrvaklapid, 15€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -216,7 +216,7 @@ namespace Triangle
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string tehnika3 = System.Environment.NewLine + " JBL väike kõlar, 30€";
+            string tehnika3 =  " JBL väike kõlar, 30€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -233,7 +233,7 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string tehnika4 = System.Environment.NewLine + " JBL Extreme, 340€";
+            string tehnika4 = " JBL Extreme, 340€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -250,7 +250,7 @@ namespace Triangle
 
         private void button15_Click(object sender, EventArgs e)
         {
-            string tehnika5 = System.Environment.NewLine + " MyPhone telefon, 50€";
+            string tehnika5 =  " MyPhone telefon, 50€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -267,7 +267,7 @@ namespace Triangle
 
         private void button13_Click(object sender, EventArgs e)
         {
-            string tehnika6 = System.Environment.NewLine + " LG monitor, 120€";
+            string tehnika6 =  " LG monitor, 120€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -284,7 +284,7 @@ namespace Triangle
 
         private void button11_Click(object sender, EventArgs e)
         {
-            string tehnika7 = System.Environment.NewLine + " Juhtmevaba hiir, 25€";
+            string tehnika7 =  " Juhtmevaba hiir, 25€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -301,7 +301,7 @@ namespace Triangle
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string tehnika8 = System.Environment.NewLine + " Klaviatuur taustavalgustusega, 75€";
+            string tehnika8 = " Klaviatuur taustavalgustusega, 75€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -318,7 +318,7 @@ namespace Triangle
 
         private void button16_Click(object sender, EventArgs e)
         {
-            string tehnika10 = System.Environment.NewLine + " 16GB mälupulk, 15€";
+            string tehnika10 =  " 16GB mälupulk, 15€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)

@@ -176,7 +176,7 @@ namespace Triangle
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string lelu7 = System.Environment.NewLine + "Mingi Karu 1€ ";
+            string lelu7 =  "Mingi Karu 1€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu7, " ");
             File.WriteAllText(path, text);
@@ -195,7 +195,7 @@ namespace Triangle
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string lelu2 = System.Environment.NewLine + "MYSTERY Ajalooline mõõk 14€";
+            string lelu2 =  "MYSTERY Ajalooline mõõk 14€";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu2, " ");
             File.WriteAllText(path, text);
@@ -214,7 +214,7 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string lelu3 = System.Environment.NewLine + "JAKKS Real Constuctions SUUR TÖÖKODA 20€ ";
+            string lelu3 =  "JAKKS Real Constuctions SUUR TÖÖKODA 20€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu3, " ");
             File.WriteAllText(path, text);
@@ -234,7 +234,7 @@ namespace Triangle
 
         private void button6_Click(object sender, EventArgs e)
         {
-            string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga 15€";
+            string lelu1 =  "MGA Bratz Selfie pulk nukuga 15€";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu1, " ");
             File.WriteAllText(path, text);
@@ -254,7 +254,7 @@ namespace Triangle
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string lelu8 = System.Environment.NewLine + "FOCO Spinner Batman 9€ ";
+            string lelu8 =  "FOCO Spinner Batman 9€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu8, " ");
             File.WriteAllText(path, text);
@@ -274,7 +274,7 @@ namespace Triangle
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string lelu9 = System.Environment.NewLine + "JANOD Põder 18€ ";
+            string lelu9 =  "JANOD Põder 18€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu9, " ");
             File.WriteAllText(path, text);
@@ -293,7 +293,7 @@ namespace Triangle
 
         private void button11_Click(object sender, EventArgs e)
         {
-            string lelu4 = System.Environment.NewLine + "CHICCO Voodikõrin Punamütsike 23€";
+            string lelu4 =  "CHICCO Voodikõrin Punamütsike 23€";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu4, " ");
             File.WriteAllText(path, text);
@@ -313,7 +313,7 @@ namespace Triangle
 
         private void button15_Click(object sender, EventArgs e)
         {
-            string lelu5 = System.Environment.NewLine + "CHICCO Rõngastest torn 10€ ";
+            string lelu5 =  "CHICCO Rõngastest torn 10€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu5, " ");
             File.WriteAllText(path, text);
@@ -333,7 +333,7 @@ namespace Triangle
 
         private void button14_Click(object sender, EventArgs e)
         {
-            string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott 7€";
+            string lelu10 = "SAMBRO LEGO JOKER Lõunakott 7€";
             string text = File.ReadAllText(path);
             text = text.Replace(lelu10, " ");
             File.WriteAllText(path, text);

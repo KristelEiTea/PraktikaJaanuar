@@ -148,7 +148,7 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string kassa4 = System.Environment.NewLine + "Puuviljakommid Lotte, MAIASMOKK, 16g 1€";
+            string kassa4 =  "Puuviljakommid Lotte, MAIASMOKK, 16g 1€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa4, " ");
             File.WriteAllText(path, text);
@@ -167,7 +167,7 @@ namespace Triangle
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string kassa9 = System.Environment.NewLine + "Naturaalne vesi, SAAREMAA, 5L 2€";
+            string kassa9 = "Naturaalne vesi, SAAREMAA, 5L 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa9, " ");
             File.WriteAllText(path, text);
@@ -186,7 +186,7 @@ namespace Triangle
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string kassa6 = System.Environment.NewLine + "Tuletikud, 10tk kiles, SELVER 1€";
+            string kassa6 =  "Tuletikud, 10tk kiles, SELVER 1€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa6, " ");
             File.WriteAllText(path, text);
@@ -213,7 +213,7 @@ namespace Triangle
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string kassa1 = System.Environment.NewLine + " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
+            string kassa1 = " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa1, " ");
             File.WriteAllText(path, text);
@@ -232,7 +232,7 @@ namespace Triangle
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string kassa2 = System.Environment.NewLine + "Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
+            string kassa2 ="Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -250,7 +250,7 @@ namespace Triangle
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string kassa7 = System.Environment.NewLine + "Sinise kartuli krõpsud, TERRA, 110g 4€";
+            string kassa7 =  "Sinise kartuli krõpsud, TERRA, 110g 4€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa7, " ");
             File.WriteAllText(path, text);
@@ -270,7 +270,7 @@ namespace Triangle
 
             private void button10_Click(object sender, EventArgs e)
         {
-            string kassa3 = System.Environment.NewLine + "Kilekotid sangadega, läbip. 5L, MCLEAN, 40tk 2€";
+            string kassa3 =  "Kilekotid sangadega, läbip. 5L, MCLEAN, 40tk 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa3, " ");
             File.WriteAllText(path, text);
@@ -289,7 +289,7 @@ namespace Triangle
 
         private void button9_Click(object sender, EventArgs e)
         {
-            string kassa8 = System.Environment.NewLine + "Jäätis Classic, MAGNUM, 297g 7€";
+            string kassa8 =  "Jäätis Classic, MAGNUM, 297g 7€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa8, " ");
             File.WriteAllText(path, text);
@@ -308,7 +308,7 @@ namespace Triangle
 
         private void button6_Click(object sender, EventArgs e)
         {
-            string kassa5 = System.Environment.NewLine + "Müslibatoon šokolaadi-banaani, CORNY, 6x25g 2€";
+            string kassa5 =  "Müslibatoon šokolaadi-banaani, CORNY, 6x25g 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa5, " ");
             File.WriteAllText(path, text);
@@ -327,7 +327,7 @@ namespace Triangle
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string kassa10 = System.Environment.NewLine + "Säraküünlad süda, LINDERS/KARIBOO, 4tk 5€";
+            string kassa10 = "Säraküünlad süda, LINDERS/KARIBOO, 4tk 5€";
             string text = File.ReadAllText(path);
             text = text.Replace(kassa10, " ");
             File.WriteAllText(path, text);
