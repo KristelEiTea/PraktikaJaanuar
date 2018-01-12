@@ -169,11 +169,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika9, " ");
             File.WriteAllText(path, text);
-            if (tehnika9 == text)
-            {
+            
                 Ostja.Raha += 320;
                 Ostja.Summa -= 320;
-            }
+            
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -182,11 +181,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika1, " ");
             File.WriteAllText(path, text);
-            if (tehnika1 == text)
-            {
+            
                 Ostja.Raha += 4;
                 Ostja.Summa -= 4;
-            }
+            
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -195,11 +193,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika2, " ");
             File.WriteAllText(path, text);
-            if (tehnika2 == text)
-            {
+            
                 Ostja.Raha += 15;
                 Ostja.Summa -= 15;
-            }
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -208,11 +205,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika3, " ");
             File.WriteAllText(path, text);
-            if (tehnika3 == text)
-            {
+           
                 Ostja.Raha += 30;
                 Ostja.Summa -= 30;
-            }
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -221,11 +217,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika4, " ");
             File.WriteAllText(path, text);
-            if (tehnika4 == text)
-            {
+           
                 Ostja.Raha += 340;
                 Ostja.Summa -= 340;
-            }
+            
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -234,11 +229,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika5, " ");
             File.WriteAllText(path, text);
-            if (tehnika5 == text)
-            {
+            
                 Ostja.Raha += 50;
                 Ostja.Summa -= 50;
-            }
+            
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -247,11 +241,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika6, " ");
             File.WriteAllText(path, text);
-            if (tehnika6 == text)
-            {
+            
                 Ostja.Raha += 120;
                 Ostja.Summa -= 120;
-            }
+            
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -260,11 +253,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika7, " ");
             File.WriteAllText(path, text);
-            if (tehnika7 == text)
-            {
+            
                 Ostja.Raha += 25;
                 Ostja.Summa -= 25;
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -273,11 +265,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika8, " ");
             File.WriteAllText(path, text);
-            if (tehnika8 == text)
-            {
+           
                 Ostja.Raha += 75;
                 Ostja.Summa -= 75;
-            }
+            
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -286,11 +277,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika10, " ");
             File.WriteAllText(path, text);
-            if (tehnika10 == text)
-            {
+           
                 Ostja.Raha += 15;
                 Ostja.Summa -= 15;
-            }
+            
         }
     }
 }

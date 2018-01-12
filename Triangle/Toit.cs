@@ -40,7 +40,7 @@ namespace Triangle
         {
             Ostja.Raha -= 5;
             Ostja.Summa += 5;
-            string toit4 = System.Environment.NewLine + " J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
+            string toit4 = System.Environment.NewLine + "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
             File.AppendAllText(path, toit4);
             alert.Text = alertString + " " + alco.Text;
         }
@@ -49,7 +49,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit5 = System.Environment.NewLine + " Kirju koer batoonike, KALEV, 200g 2€";
+            string toit5 = System.Environment.NewLine + "Kirju koer batoonike, KALEV, 200g 2€";
             File.AppendAllText(path, toit5);
             alert.Text = alertString + " " + koer.Text;
         }
@@ -58,7 +58,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit6 = System.Environment.NewLine + " Õunamahl, PÕLTSAMAA, 1L 2€";
+            string toit6 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
             File.AppendAllText(path, toit6);
             alert.Text = alertString + " " + mahl.Text;
         }
@@ -85,7 +85,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit9 = System.Environment.NewLine + " Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
+            string toit9 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
             File.AppendAllText(path, toit9);
             alert.Text = alertString + " " + artur.Text;
         }
@@ -103,7 +103,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit12 = System.Environment.NewLine + "Coca-Cola, COCA-COLA, 2L 2€ ";
+            string toit12 = System.Environment.NewLine + "Sushi TOKYO, SUSHI, 320g, 7€";
             File.AppendAllText(path, toit12);
             alert.Text = alertString + " " + coca.Text;
         }
@@ -193,5 +193,183 @@ namespace Triangle
             k.ShowDialog();
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string toit = System.Environment.NewLine + "Avokaado, 1kg 5€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 5;
+                Ostja.Summa -= 5;
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string toit2 = System.Environment.NewLine + "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit2, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 5;
+                Ostja.Summa -= 5;
+            
+           
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string toit3 = System.Environment.NewLine + "Kirju koer batoonike, KALEV, 200g 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit3, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string toit4 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit4, " ");
+            File.WriteAllText(path, text);
+           
+                Ostja.Raha  += 2;
+                Ostja.Summa -= 2;
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string toit5 = System.Environment.NewLine + "Suur Kodusai, FAZER, 500g 1€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit5, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 1;
+                Ostja.Summa -= 1;
+            
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string toit6 = System.Environment.NewLine + "Täispiim pure, FARMI, 1L 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit6, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            
+
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string toit7 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit7, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string toit8 = System.Environment.NewLine + "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500g 5€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit8, " ");
+            File.WriteAllText(path, text);
+            if (toit8 == text)
+            {
+                Ostja.Raha += 5;
+                Ostja.Summa -= 5;
+            }
+            
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            string toit9 = System.Environment.NewLine + "Sushi TOKYO, SUSHI, 320g, 7€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit9, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 7;
+                Ostja.Summa -= 7;
+            
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            string toit10 = System.Environment.NewLine + "Coca-Cola, COCA-COLA, 2L 2€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit10, " ");
+            File.WriteAllText(path, text);
+           
+                Ostja.Raha += 2;
+                Ostja.Summa -= 2;
+            
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            string toit11 = System.Environment.NewLine + "Kartulikrõpsud Koore-Sibula, PRINGLES, 165g 3€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit11, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 3;
+                Ostja.Summa -= 3;
+            
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            string toit12 = System.Environment.NewLine + "Joogijogurt maasika-kiivi, ACTIVIA, 300g 1€ ";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit12, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 1;
+                Ostja.Summa -= 1;
+            
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            string toit13 = System.Environment.NewLine + "Lahustuv kakao, NESQUIK, 400g 3€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit13, " ");
+            File.WriteAllText(path, text);
+           
+            
+                Ostja.Raha += 3;
+                Ostja.Summa -= 3;
+            
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            string toit14 = System.Environment.NewLine + "Tualettpaber Delux Pure White, 3, ZEWA, 16rl 8€";
+            string text = File.ReadAllText(path);
+            text = text.Replace(toit14, " ");
+            File.WriteAllText(path, text);
+            
+                Ostja.Raha += 8;
+                Ostja.Summa -= 8;
+            
+        }
     }
-}
+  }
+ 
