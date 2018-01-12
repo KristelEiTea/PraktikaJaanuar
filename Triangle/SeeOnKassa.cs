@@ -210,13 +210,14 @@ namespace Triangle
         {
             string kassa2 = System.Environment.NewLine + "Niisked salvrätikud Pure, HUGGIES, 4x56tk 3€";
             string text = File.ReadAllText(path);
-            text = text.Replace(kassa2, " ");
-            File.WriteAllText(path, text);
-            if (kassa2 == text)
+            if (text == kassa2)
             {
                 Ostja.Raha += 3;
                 Ostja.Summa -= 3;
             }
+            text = text.Replace(kassa2, " ");
+            File.WriteAllText(path, text);
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
