@@ -40,7 +40,7 @@ namespace Triangle
         {
             Ostja.Raha -= 5;
             Ostja.Summa += 5;
-            string toit4 = System.Environment.NewLine + " J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
+            string toit4 = System.Environment.NewLine + "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
             File.AppendAllText(path, toit4);
             alert.Text = alertString + " " + alco.Text;
         }
@@ -49,7 +49,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit5 = System.Environment.NewLine + " Kirju koer batoonike, KALEV, 200g 2€";
+            string toit5 = System.Environment.NewLine + "Kirju koer batoonike, KALEV, 200g 2€";
             File.AppendAllText(path, toit5);
             alert.Text = alertString + " " + koer.Text;
         }
@@ -58,7 +58,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit6 = System.Environment.NewLine + " Õunamahl, PÕLTSAMAA, 1L 2€";
+            string toit6 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
             File.AppendAllText(path, toit6);
             alert.Text = alertString + " " + mahl.Text;
         }
@@ -85,7 +85,7 @@ namespace Triangle
         {
             Ostja.Raha -= 2;
             Ostja.Summa += 2;
-            string toit9 = System.Environment.NewLine + " Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
+            string toit9 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
             File.AppendAllText(path, toit9);
             alert.Text = alertString + " " + artur.Text;
         }
@@ -208,7 +208,7 @@ namespace Triangle
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string toit2 = System.Environment.NewLine + " J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
+            string toit2 = System.Environment.NewLine + "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit2, " ");
             File.WriteAllText(path, text);
@@ -221,7 +221,7 @@ namespace Triangle
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string toit3 = System.Environment.NewLine + " Kirju koer batoonike, KALEV, 200g 2€";
+            string toit3 = System.Environment.NewLine + "Kirju koer batoonike, KALEV, 200g 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit3, " ");
             File.WriteAllText(path, text);
@@ -233,7 +233,7 @@ namespace Triangle
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string toit4 = System.Environment.NewLine + " Õunamahl, PÕLTSAMAA, 1L 2€";
+            string toit4 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit4, " ");
             File.WriteAllText(path, text);
@@ -272,7 +272,7 @@ namespace Triangle
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string toit7 = System.Environment.NewLine + " Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
+            string toit7 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit7, " ");
             File.WriteAllText(path, text);
