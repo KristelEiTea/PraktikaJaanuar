@@ -365,12 +365,24 @@ namespace Triangle
 
         private void button12_Click(object sender, EventArgs e)
         {
-            string tehnika8 = System.Environment.NewLine + label2.Text;
+            string a = label2.Text;
             string text = File.ReadAllText(path);
-            text = text.Replace(tehnika8, " ");
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == a)
+                {
+                    //string hind = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(1).Take(2).First();
+                    //int ahar = int.Parse(hind);
+                    var lines = File.ReadAllLines(path);
+                    int ahar = int.Parse(lines[2]);
+                    Ostja.Raha += ahar;
+                    Ostja.Summa -= ahar;
+                    
+                }
+            }
+            text = text.Replace(a, " ");
             File.WriteAllText(path, text);
-;
-
         }
     }
 }

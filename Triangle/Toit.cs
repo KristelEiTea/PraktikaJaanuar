@@ -31,7 +31,7 @@ namespace Triangle
         {
             Ostja.Raha -= 5;
             Ostja.Summa += 5;
-            string toit3 = System.Environment.NewLine + "Avokaado, 1kg 5€";
+            string toit3 = System.Environment.NewLine + "Avokaado 1kg, € = 5 " + Environment.NewLine + "5"; 
             File.AppendAllText(path, toit3);
             alert.Text = alertString + " " + Avokaado.Text;
         }
@@ -196,7 +196,7 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string toit = "Avokaado, 1kg 5€";
+            string toit = "Avokaado 1kg, € = 5 " + Environment.NewLine + "5";
             string text = File.ReadAllText(path);
             text = text.Replace(toit, " ");
             File.WriteAllText(path, text);
