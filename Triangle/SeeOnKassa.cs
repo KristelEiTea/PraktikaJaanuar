@@ -310,9 +310,7 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(tehnika8, " ");
             File.WriteAllText(path, text);
-
-            Ostja.Raha += 75;
-            Ostja.Summa -= 75;
+;
 
         }
     }
