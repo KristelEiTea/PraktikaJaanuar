@@ -167,120 +167,170 @@ namespace Triangle
         {
             string tehnika9 = System.Environment.NewLine + " LG televiisor, 320€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika9)
+                {
+                    Ostja.Raha += 320;
+                    Ostja.Summa -= 320;
+                }
+            }
             text = text.Replace(tehnika9, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 320;
-                Ostja.Summa -= 320;
-            
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             string tehnika1 = System.Environment.NewLine + " Nööp-kõrvaklapid, 4€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika1)
+                {
+                    Ostja.Raha += 4;
+                    Ostja.Summa -= 4;
+                }
+            }
             text = text.Replace(tehnika1, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 4;
-                Ostja.Summa -= 4;
-            
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             string tehnika2 = System.Environment.NewLine + " Suured kõrvaklapid, 15€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika2)
+                {
+                    Ostja.Raha += 15;
+                    Ostja.Summa -= 15;
+                }
+            }
             text = text.Replace(tehnika2, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 15;
-                Ostja.Summa -= 15;
-            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             string tehnika3 = System.Environment.NewLine + " JBL väike kõlar, 30€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika3)
+                {
+                    Ostja.Raha += 30;
+                    Ostja.Summa -= 30;
+                }
+            }
             text = text.Replace(tehnika3, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 30;
-                Ostja.Summa -= 30;
-            
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             string tehnika4 = System.Environment.NewLine + " JBL Extreme, 340€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika4)
+                {
+                    Ostja.Raha += 340;
+                    Ostja.Summa -= 340;
+                }
+            }
             text = text.Replace(tehnika4, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 340;
-                Ostja.Summa -= 340;
-            
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             string tehnika5 = System.Environment.NewLine + " MyPhone telefon, 50€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika5)
+                {
+                    Ostja.Raha += 50;
+                    Ostja.Summa -= 50;
+                }
+            }
             text = text.Replace(tehnika5, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 50;
-                Ostja.Summa -= 50;
-            
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             string tehnika6 = System.Environment.NewLine + " LG monitor, 120€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika6)
+                {
+                    Ostja.Raha += 120;
+                    Ostja.Summa -= 120;
+                }
+            }
             text = text.Replace(tehnika6, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 120;
-                Ostja.Summa -= 120;
-            
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             string tehnika7 = System.Environment.NewLine + " Juhtmevaba hiir, 25€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika7)
+                {
+                    Ostja.Raha += 25;
+                    Ostja.Summa -= 25;
+                }
+            }
             text = text.Replace(tehnika7, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 25;
-                Ostja.Summa -= 25;
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             string tehnika8 = System.Environment.NewLine + " Klaviatuur taustavalgustusega, 75€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika8)
+                {
+                    Ostja.Raha += 75;
+                    Ostja.Summa -= 75;
+                }
+            }
             text = text.Replace(tehnika8, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 75;
-                Ostja.Summa -= 75;
-            
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
             string tehnika10 = System.Environment.NewLine + " 16GB mälupulk, 15€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == tehnika10)
+                {
+                    Ostja.Raha += 15;
+                    Ostja.Summa -= 15;
+                }
+            }
             text = text.Replace(tehnika10, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 15;
-                Ostja.Summa -= 15;
-            
         }
     }
 }
