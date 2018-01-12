@@ -255,37 +255,53 @@ namespace Triangle
         {
             string toit4 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit4)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
+            }
             text = text.Replace(toit4, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha  += 2;
-                Ostja.Summa -= 2;
-            
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             string toit5 = System.Environment.NewLine + "Suur Kodusai, FAZER, 500g 1€ ";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit5)
+                {
+                    Ostja.Raha += 1;
+                    Ostja.Summa -= 1;
+                }
+            }
             text = text.Replace(toit5, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 1;
-                Ostja.Summa -= 1;
-            
-            
+
+
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             string toit6 = System.Environment.NewLine + "Täispiim pure, FARMI, 1L 2€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit6)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
+            }
             text = text.Replace(toit6, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
-            
 
 
         }
@@ -294,12 +310,18 @@ namespace Triangle
         {
             string toit7 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit7)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
+            }
             text = text.Replace(toit7, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
-            
+
 
         }
 
@@ -307,26 +329,35 @@ namespace Triangle
         {
             string toit8 = System.Environment.NewLine + "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500g 5€ ";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit8)
+                {
+                    Ostja.Raha += 5;
+                    Ostja.Summa -= 5;
+                }
+            }
             text = text.Replace(toit8, " ");
             File.WriteAllText(path, text);
-            if (toit8 == text)
-            {
-                Ostja.Raha += 5;
-                Ostja.Summa -= 5;
-            }
-            
+
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             string toit9 = System.Environment.NewLine + "Sushi TOKYO, SUSHI, 320g, 7€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit9)
+                {
+                    Ostja.Raha += 7;
+                    Ostja.Summa -= 7;
+                }
+            }
             text = text.Replace(toit9, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 7;
-                Ostja.Summa -= 7;
-            
 
         }
 
@@ -334,24 +365,36 @@ namespace Triangle
         {
             string toit10 = System.Environment.NewLine + "Coca-Cola, COCA-COLA, 2L 2€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit10)
+                {
+                    Ostja.Raha += 2;
+                    Ostja.Summa -= 2;
+                }
+            }
             text = text.Replace(toit10, " ");
             File.WriteAllText(path, text);
-           
-                Ostja.Raha += 2;
-                Ostja.Summa -= 2;
-            
+
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             string toit11 = System.Environment.NewLine + "Kartulikrõpsud Koore-Sibula, PRINGLES, 165g 3€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit11)
+                {
+                    Ostja.Raha += 3;
+                    Ostja.Summa -= 3;
+                }
+            }
             text = text.Replace(toit11, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 3;
-                Ostja.Summa -= 3;
-            
+
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -377,25 +420,34 @@ namespace Triangle
         {
             string toit13 = System.Environment.NewLine + "Lahustuv kakao, NESQUIK, 400g 3€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit13)
+                {
+                    Ostja.Raha += 3;
+                    Ostja.Summa -= 3;
+                }
+            }
             text = text.Replace(toit13, " ");
             File.WriteAllText(path, text);
-           
-            
-                Ostja.Raha += 3;
-                Ostja.Summa -= 3;
-            
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
             string toit14 = System.Environment.NewLine + "Tualettpaber Delux Pure White, 3, ZEWA, 16rl 8€";
             string text = File.ReadAllText(path);
+            string[] read = System.IO.File.ReadAllLines(path);
+            foreach (string line in read)
+            {
+                if (line == toit14)
+                {
+                    Ostja.Raha += 8;
+                    Ostja.Summa -= 8;
+                }
+            }
             text = text.Replace(toit14, " ");
             File.WriteAllText(path, text);
-            
-                Ostja.Raha += 8;
-                Ostja.Summa -= 8;
-            
         }
     }
   }
