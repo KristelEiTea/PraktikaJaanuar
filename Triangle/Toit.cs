@@ -196,7 +196,7 @@ namespace Triangle
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string toit = System.Environment.NewLine + "Avokaado, 1kg 5€";
+            string toit = "Avokaado, 1kg 5€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit, " ");
             File.WriteAllText(path, text);
@@ -215,7 +215,7 @@ namespace Triangle
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string toit2 = System.Environment.NewLine + "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
+            string toit2 = "J.P. Chenet Rose Medium Sweet 75cl Tavahind 6€ SOODUS 5€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit2, " ");
             File.WriteAllText(path, text);
@@ -234,7 +234,7 @@ namespace Triangle
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string toit3 = System.Environment.NewLine + "Kirju koer batoonike, KALEV, 200g 2€";
+            string toit3 ="Kirju koer batoonike, KALEV, 200g 2€";
             string text = File.ReadAllText(path);
             text = text.Replace(toit3, " ");
             File.WriteAllText(path, text);
@@ -253,7 +253,7 @@ namespace Triangle
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string toit4 = System.Environment.NewLine + "Õunamahl, PÕLTSAMAA, 1L 2€";
+            string toit4 = "Õunamahl, PÕLTSAMAA, 1L 2€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -270,7 +270,7 @@ namespace Triangle
 
         private void button6_Click(object sender, EventArgs e)
         {
-            string toit5 = System.Environment.NewLine + "Suur Kodusai, FAZER, 500g 1€ ";
+            string toit5 =  "Suur Kodusai, FAZER, 500g 1€ ";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -289,7 +289,7 @@ namespace Triangle
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string toit6 = System.Environment.NewLine + "Täispiim pure, FARMI, 1L 2€";
+            string toit6 = "Täispiim pure, FARMI, 1L 2€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -308,7 +308,7 @@ namespace Triangle
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string toit7 = System.Environment.NewLine + "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
+            string toit7 = "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150g Tavahind 2€ SOODUS 2€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -327,7 +327,7 @@ namespace Triangle
 
         private void button9_Click(object sender, EventArgs e)
         {
-            string toit8 = System.Environment.NewLine + "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500g 5€ ";
+            string toit8 = "Eesti juust 25,2% viilutatud, TRADITSIOONILINE EESTI JUUST, 500g 5€ ";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -345,7 +345,7 @@ namespace Triangle
 
         private void button10_Click(object sender, EventArgs e)
         {
-            string toit9 = System.Environment.NewLine + "Sushi TOKYO, SUSHI, 320g, 7€";
+            string toit9 = "Sushi TOKYO, SUSHI, 320g, 7€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -363,7 +363,7 @@ namespace Triangle
 
         private void button12_Click(object sender, EventArgs e)
         {
-            string toit10 = System.Environment.NewLine + "Coca-Cola, COCA-COLA, 2L 2€";
+            string toit10 =  "Coca-Cola, COCA-COLA, 2L 2€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -381,7 +381,7 @@ namespace Triangle
 
         private void button13_Click(object sender, EventArgs e)
         {
-            string toit11 = System.Environment.NewLine + "Kartulikrõpsud Koore-Sibula, PRINGLES, 165g 3€";
+            string toit11 =  "Kartulikrõpsud Koore-Sibula, PRINGLES, 165g 3€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -399,7 +399,7 @@ namespace Triangle
 
         private void button15_Click(object sender, EventArgs e)
         {
-            string toit12 = System.Environment.NewLine + "Joogijogurt maasika-kiivi, ACTIVIA, 300g 1€ ";
+            string toit12 =  "Joogijogurt maasika-kiivi, ACTIVIA, 300g 1€ ";
             string text = File.ReadAllText(path);
             text = text.Replace(toit12, " ");
             File.WriteAllText(path, text);
@@ -418,7 +418,7 @@ namespace Triangle
 
         private void button16_Click(object sender, EventArgs e)
         {
-            string toit13 = System.Environment.NewLine + "Lahustuv kakao, NESQUIK, 400g 3€";
+            string toit13 ="Lahustuv kakao, NESQUIK, 400g 3€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
@@ -435,7 +435,7 @@ namespace Triangle
 
         private void button17_Click(object sender, EventArgs e)
         {
-            string toit14 = System.Environment.NewLine + "Tualettpaber Delux Pure White, 3, ZEWA, 16rl 8€";
+            string toit14 = "Tualettpaber Delux Pure White, 3, ZEWA, 16rl 8€";
             string text = File.ReadAllText(path);
             string[] read = System.IO.File.ReadAllLines(path);
             foreach (string line in read)
