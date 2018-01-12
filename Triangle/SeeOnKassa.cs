@@ -361,6 +361,16 @@ namespace Triangle
         private void SeeOnKassa_Load(object sender, EventArgs e)
         {
             label2.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(1).Take(1).First();
+            //label4.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(2).Take(3).First();
+            //label5.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(3).Take(4).First();
+            //label6.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(4).Take(5).First();
+            //label7.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(5).Take(6).First();
+            //label8.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(6).Take(7).First();
+            //label9.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(7).Take(8).First();
+            //label10.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(8).Take(9).First();
+            //label11.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(9).Take(10).First();
+            //label12.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(10).Take(11).First();
+            //label13.Text = File.ReadLines((@"..\..\..\Inventory.txt")).Skip(11).Take(12).First();
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -383,6 +393,11 @@ namespace Triangle
             }
             text = text.Replace(a, " ");
             File.WriteAllText(path, text);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
