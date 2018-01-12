@@ -22,15 +22,7 @@ namespace Triangle
             InitializeComponent();
         }
 
-        private void kommid_Click(object sender, EventArgs e)
-        {
-            string kassa1 = System.Environment.NewLine + " Hapud kommid BRAIN BLASTERZ, BBB, 48g 2€";
-            File.AppendAllText(path, kassa1);
-            Ostja.Raha -= 2;
-            Ostja.Summa += 2;
-            alert.Text = alertString + " " + kommid.Text;
-
-        }
+        
 
         private void salvratik_Click(object sender, EventArgs e)
         {
