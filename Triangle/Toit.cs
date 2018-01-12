@@ -200,11 +200,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit, " ");
             File.WriteAllText(path, text);
-            if (toit == text)
-            {
+            
                 Ostja.Raha += 5;
                 Ostja.Summa -= 5;
-            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -213,11 +212,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit2, " ");
             File.WriteAllText(path, text);
-            if (toit2 == text)
-            {
+            
                 Ostja.Raha += 5;
                 Ostja.Summa -= 5;
-            }
+            
            
         }
 
@@ -227,11 +225,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit3, " ");
             File.WriteAllText(path, text);
-            if (toit3 == text)
-            {
+            
                 Ostja.Raha += 2;
                 Ostja.Summa -= 2;
-            }
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -240,11 +237,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit4, " ");
             File.WriteAllText(path, text);
-            if (toit4 == text)
-            {
-                Ostja.Raha += 2;
+           
+                Ostja.Raha  += 2;
                 Ostja.Summa -= 2;
-            }
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -253,11 +249,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit5, " ");
             File.WriteAllText(path, text);
-            if (toit5 == text)
-            {
+            
                 Ostja.Raha += 1;
                 Ostja.Summa -= 1;
-            }
+            
             
         }
 
@@ -267,11 +262,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit6, " ");
             File.WriteAllText(path, text);
-            if (toit6 == text)
-            {
+            
                 Ostja.Raha += 2;
                 Ostja.Summa -= 2;
-            }
+            
 
 
         }
@@ -282,11 +276,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit7, " ");
             File.WriteAllText(path, text);
-            if (toit7 == text)
-            {
+            
                 Ostja.Raha += 2;
                 Ostja.Summa -= 2;
-            }
+            
 
         }
 
@@ -310,11 +303,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit9, " ");
             File.WriteAllText(path, text);
-            if (toit9 == text)
-            {
+            
                 Ostja.Raha += 7;
                 Ostja.Summa -= 7;
-            }
+            
 
         }
 
@@ -324,11 +316,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit10, " ");
             File.WriteAllText(path, text);
-            if (toit10 == text)
-            {
+           
                 Ostja.Raha += 2;
                 Ostja.Summa -= 2;
-            }
+            
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -337,11 +328,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit11, " ");
             File.WriteAllText(path, text);
-            if (toit11 == text)
-            {
+            
                 Ostja.Raha += 3;
                 Ostja.Summa -= 3;
-            }
+            
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -350,11 +340,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit12, " ");
             File.WriteAllText(path, text);
-            if (toit12 == text)
-            {
+            
                 Ostja.Raha += 1;
                 Ostja.Summa -= 1;
-            }
+            
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -363,11 +352,11 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit13, " ");
             File.WriteAllText(path, text);
-            if (toit13 == text)
-            {
+           
+            
                 Ostja.Raha += 3;
                 Ostja.Summa -= 3;
-            }
+            
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -376,11 +365,10 @@ namespace Triangle
             string text = File.ReadAllText(path);
             text = text.Replace(toit14, " ");
             File.WriteAllText(path, text);
-            if (toit14 == text)
-            {
+            
                 Ostja.Raha += 8;
                 Ostja.Summa -= 8;
-            }
+            
         }
     }
   }
