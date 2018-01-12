@@ -283,5 +283,13 @@ namespace Triangle
                 Ostja.Summa -= 5;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (label1.Visible == true)
+                label1.Visible = false;
+            else
+                label1.Visible = true;
+        }
     }
 }
