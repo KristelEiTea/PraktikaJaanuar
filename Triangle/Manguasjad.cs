@@ -25,7 +25,7 @@ namespace Triangle
         {
             Ostja.Raha -= 14;
             Ostja.Summa += 14;
-            string lelu2 = System.Environment.NewLine + "MYSTERY Ajalooline mõõk 14€";
+            string lelu2 = System.Environment.NewLine + "MYSTERY Ajalooline mõõk, € = 14" + Environment.NewLine + "14";
             File.AppendAllText(path, lelu2);
             alert.Text = alertString + " " + button10.Text;
         }
@@ -34,7 +34,7 @@ namespace Triangle
         {
             Ostja.Raha -= 20;
             Ostja.Summa += 20;
-            string lelu3 = System.Environment.NewLine + "JAKKS Real Constuctions SUUR TÖÖKODA 20€ ";
+            string lelu3 = System.Environment.NewLine + "JAKKS Real Constuctions SUUR TÖÖKODA, € = 20" + Environment.NewLine + "20";
             File.AppendAllText(path, lelu3);
             alert.Text = alertString + " " + button9.Text;
         }
@@ -43,7 +43,7 @@ namespace Triangle
         {
             Ostja.Raha -= 15;
             Ostja.Summa += 15;
-            string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga 15€";
+            string lelu1 = System.Environment.NewLine + "MGA Bratz Selfie pulk nukuga, € = 15" + Environment.NewLine + "15";
             File.AppendAllText(path, lelu1);
             alert.Text = alertString + " " + button8.Text;
         }
@@ -52,7 +52,7 @@ namespace Triangle
         {
             Ostja.Raha -= 23;
             Ostja.Summa += 23;
-            string lelu4 = System.Environment.NewLine + "CHICCO Voodikõrin Punamütsike 23€";
+            string lelu4 = System.Environment.NewLine + "CHICCO Voodikõrin Punamütsike, € = 23" + Environment.NewLine + "23";
             File.AppendAllText(path, lelu4);
             alert.Text = alertString + " " + Kõrin.Text;
         }
@@ -61,7 +61,7 @@ namespace Triangle
         {
             Ostja.Raha -= 10;
             Ostja.Summa += 10;
-            string lelu5 = System.Environment.NewLine + "CHICCO Rõngastest torn 10€ ";
+            string lelu5 = System.Environment.NewLine + "CHICCO Rõngastest torn, € = 10" + Environment.NewLine + "10";
             File.AppendAllText(path, lelu5);
             alert.Text = alertString + " " + rõngad.Text;
         }
@@ -70,7 +70,7 @@ namespace Triangle
         {
             Ostja.Raha -= 19;
             Ostja.Summa += 19;
-            string lelu6 = System.Environment.NewLine + "POSH PAWS MINIONS Pehme ükssarvik 19€ ";
+            string lelu6 = System.Environment.NewLine + "POSH PAWS MINIONS Pehme ükssarvik, € = 19" + Environment.NewLine + "19";
             File.AppendAllText(path, lelu6);
             alert.Text = alertString + " " + minion.Text;
         }
@@ -79,7 +79,7 @@ namespace Triangle
         {
             Ostja.Raha -= 1;
             Ostja.Summa += 1;
-            string lelu7 = System.Environment.NewLine + "Mingi Karu 1€ ";
+            string lelu7 = System.Environment.NewLine + "Mingi Karu, € = 1" + Environment.NewLine + "1";
             File.AppendAllText(path, lelu7);
             alert.Text = alertString + " " + Karu.Text;
         }
@@ -89,7 +89,7 @@ namespace Triangle
         {
             Ostja.Raha -= 9;
             Ostja.Summa += 9;
-            string lelu8 = System.Environment.NewLine + "FOCO Spinner Batman 9€ ";
+            string lelu8 = System.Environment.NewLine + "FOCO Spinner Batman, € = 9" + Environment.NewLine + "9";
             File.AppendAllText(path, lelu8);
             alert.Text = alertString + " " + spinner.Text;
         }
@@ -98,7 +98,7 @@ namespace Triangle
         {
             Ostja.Raha -= 18;
             Ostja.Summa += 18;
-            string lelu9 = System.Environment.NewLine + "JANOD Põder 18€ ";
+            string lelu9 = System.Environment.NewLine + "JANOD Põder, € = 18" + Environment.NewLine + "18";
             File.AppendAllText(path, lelu9);
             alert.Text = alertString + " " + pöder.Text;
         }
@@ -107,7 +107,7 @@ namespace Triangle
         {
             Ostja.Raha -= 7;
             Ostja.Summa += 7;
-            string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott 7€";
+            string lelu10 = System.Environment.NewLine + "SAMBRO LEGO JOKER Lõunakott, € = 7" + Environment.NewLine + "7";
             File.AppendAllText(path, lelu10);
             alert.Text = alertString + " " + kotike.Text;
         }
